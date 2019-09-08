@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D23EE470CBCECBA068923B716B863A /* Pods-ArtistFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96EF44C67D51BB85B05AB5F8EC7BEF /* Pods-ArtistFinder-dummy.m */; };
+		9A1A40C8E53A27F9045F3443AEA3012A /* Pulsator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F8F10DE8B00E8F49EDDB8DC14CB9D8 /* Pulsator-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A985F0EE982FF477981E172FDABCB0D0 /* Pulsator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B8FD5367301FECF9C473F532467BD7 /* Pulsator-dummy.m */; };
+		E6B84005B1B25A4FB42CEBD7A6D80656 /* Pods-ArtistFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F506F17AA244F2E37F556FD5FA00EF3B /* Pods-ArtistFinder-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3ECCF66EDEFA3D1D1FAC798CA87065E /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9144B67572C0BD8796D3E1E79886B227 /* Pulsator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3707A6A5D1CBA7D20F2D09BD1D32BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BBA75F847DD6D3B2E202F6F0E9A01C;
+			remoteInfo = Pulsator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0017F06D108FB55F0594C12FEA204835 /* Pulsator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulsator.xcconfig; sourceTree = "<group>"; };
+		0B9F7B9DD9A9C25AEC836D361F5CC973 /* Pods-ArtistFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtistFinder-acknowledgements.plist"; sourceTree = "<group>"; };
+		29B8FD5367301FECF9C473F532467BD7 /* Pulsator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulsator-dummy.m"; sourceTree = "<group>"; };
+		5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ArtistFinder.a"; path = "libPods-ArtistFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5347690E3A757F6A8AC01222A6B8A1A5 /* Pods-ArtistFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArtistFinder.modulemap"; sourceTree = "<group>"; };
+		7CE6626224F5D2E2437DF82603AA4B5B /* Pulsator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-prefix.pch"; sourceTree = "<group>"; };
+		86F8F10DE8B00E8F49EDDB8DC14CB9D8 /* Pulsator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-umbrella.h"; sourceTree = "<group>"; };
+		8707CA37A1EA9A04FE987A2CB0264695 /* Pods-ArtistFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtistFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		9144B67572C0BD8796D3E1E79886B227 /* Pulsator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pulsator.swift; path = Pulsator/Pulsator.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A803FC940286873F4A4490F426D47D0A /* Pods-ArtistFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtistFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B251FC08B63A5D8C7D944CEB02EE7A44 /* Pulsator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulsator.modulemap; sourceTree = "<group>"; };
+		BF96EF44C67D51BB85B05AB5F8EC7BEF /* Pods-ArtistFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtistFinder-dummy.m"; sourceTree = "<group>"; };
+		C7A592866C1B096729D1ABB0AA6E1A81 /* Pods-ArtistFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtistFinder.release.xcconfig"; sourceTree = "<group>"; };
+		F506F17AA244F2E37F556FD5FA00EF3B /* Pods-ArtistFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtistFinder-umbrella.h"; sourceTree = "<group>"; };
+		FF0CD94CB8F5CD73FEE61C7562214EE5 /* libPulsator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPulsator.a; path = libPulsator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3FE73629A8AD975B6E98A45D503A4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03312CAEE403A9BC2E3C6824A74246F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC53C45E45B76661A610152C34CC046 /* Pulsator */ = {
+			isa = PBXGroup;
+			children = (
+				9144B67572C0BD8796D3E1E79886B227 /* Pulsator.swift */,
+				5C7F5530708CED1CE338C65D70D91242 /* Support Files */,
+			);
+			name = Pulsator;
+			path = Pulsator;
+			sourceTree = "<group>";
+		};
+		4426925DF0F65CDFDB68CC5C399DC65E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EC53C45E45B76661A610152C34CC046 /* Pulsator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C7F5530708CED1CE338C65D70D91242 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B251FC08B63A5D8C7D944CEB02EE7A44 /* Pulsator.modulemap */,
+				0017F06D108FB55F0594C12FEA204835 /* Pulsator.xcconfig */,
+				29B8FD5367301FECF9C473F532467BD7 /* Pulsator-dummy.m */,
+				7CE6626224F5D2E2437DF82603AA4B5B /* Pulsator-prefix.pch */,
+				86F8F10DE8B00E8F49EDDB8DC14CB9D8 /* Pulsator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pulsator";
+			sourceTree = "<group>";
+		};
+		C2A6D65BDAFA1BC48B86A9935B777E55 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D76933B63076142A03E4DAC10BB689A7 /* Pods-ArtistFinder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				4426925DF0F65CDFDB68CC5C399DC65E /* Pods */,
+				CF5AE5263205AFED42C4E130FE9AB65A /* Products */,
+				C2A6D65BDAFA1BC48B86A9935B777E55 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5AE5263205AFED42C4E130FE9AB65A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */,
+				FF0CD94CB8F5CD73FEE61C7562214EE5 /* libPulsator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D76933B63076142A03E4DAC10BB689A7 /* Pods-ArtistFinder */ = {
+			isa = PBXGroup;
+			children = (
+				5347690E3A757F6A8AC01222A6B8A1A5 /* Pods-ArtistFinder.modulemap */,
+				A803FC940286873F4A4490F426D47D0A /* Pods-ArtistFinder-acknowledgements.markdown */,
+				0B9F7B9DD9A9C25AEC836D361F5CC973 /* Pods-ArtistFinder-acknowledgements.plist */,
+				BF96EF44C67D51BB85B05AB5F8EC7BEF /* Pods-ArtistFinder-dummy.m */,
+				F506F17AA244F2E37F556FD5FA00EF3B /* Pods-ArtistFinder-umbrella.h */,
+				8707CA37A1EA9A04FE987A2CB0264695 /* Pods-ArtistFinder.debug.xcconfig */,
+				C7A592866C1B096729D1ABB0AA6E1A81 /* Pods-ArtistFinder.release.xcconfig */,
+			);
+			name = "Pods-ArtistFinder";
+			path = "Target Support Files/Pods-ArtistFinder";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0ECB16DDF57FA821F1045E34D5789591 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1A40C8E53A27F9045F3443AEA3012A /* Pulsator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B805A880D390D24817F9D313BC03A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B84005B1B25A4FB42CEBD7A6D80656 /* Pods-ArtistFinder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7450BEB5975700C91D05F49F247D173 /* Pods-ArtistFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932ADCD2739C38BF9A66BAD151595CEF /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */;
+			buildPhases = (
+				26B805A880D390D24817F9D313BC03A8 /* Headers */,
+				BE49962BAF2B3590B4DD63B9C35D2C8F /* Sources */,
+				F03312CAEE403A9BC2E3C6824A74246F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9994E05980C2B41D9D82750B533973 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArtistFinder";
+			productName = "Pods-ArtistFinder";
+			productReference = 5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E3C3EE5E015B55DE92B4D7AEB9003C /* Build configuration list for PBXNativeTarget "Pulsator" */;
+			buildPhases = (
+				0ECB16DDF57FA821F1045E34D5789591 /* Headers */,
+				2A4134158F16098605DF8C44484E0E11 /* Sources */,
+				C3FE73629A8AD975B6E98A45D503A4E5 /* Frameworks */,
+				E468191FEA79EB71DCEA3B2F75D8D8E7 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulsator;
+			productName = Pulsator;
+			productReference = FF0CD94CB8F5CD73FEE61C7562214EE5 /* libPulsator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CF5AE5263205AFED42C4E130FE9AB65A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7450BEB5975700C91D05F49F247D173 /* Pods-ArtistFinder */,
+				E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E468191FEA79EB71DCEA3B2F75D8D8E7 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Pulsator/Pulsator.modulemap",
+				"${PODS_ROOT}/Headers/Public/Pulsator/Pulsator-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Pulsator-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Pulsator/Pulsator.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Pulsator/Pulsator-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A4134158F16098605DF8C44484E0E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A985F0EE982FF477981E172FDABCB0D0 /* Pulsator-dummy.m in Sources */,
+				F3ECCF66EDEFA3D1D1FAC798CA87065E /* Pulsator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE49962BAF2B3590B4DD63B9C35D2C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D23EE470CBCECBA068923B716B863A /* Pods-ArtistFinder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB9994E05980C2B41D9D82750B533973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pulsator;
+			target = E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */;
+			targetProxy = F3707A6A5D1CBA7D20F2D09BD1D32BF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		585895756CCC653F609D6270BED63286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A592866C1B096729D1ABB0AA6E1A81 /* Pods-ArtistFinder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A14FE20B6A92A31A547630866E16016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0017F06D108FB55F0594C12FEA204835 /* Pulsator.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Pulsator/Pulsator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Pulsator/Pulsator.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Pulsator;
+				PRODUCT_NAME = Pulsator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78FCDFD7F7ADED1AD63DA0E32CB56677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8707CA37A1EA9A04FE987A2CB0264695 /* Pods-ArtistFinder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8AD61AD8B60C62684CB68070085CF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0017F06D108FB55F0594C12FEA204835 /* Pulsator.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Pulsator/Pulsator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Pulsator/Pulsator.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Pulsator;
+				PRODUCT_NAME = Pulsator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932ADCD2739C38BF9A66BAD151595CEF /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FCDFD7F7ADED1AD63DA0E32CB56677 /* Debug */,
+				585895756CCC653F609D6270BED63286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E3C3EE5E015B55DE92B4D7AEB9003C /* Build configuration list for PBXNativeTarget "Pulsator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AD61AD8B60C62684CB68070085CF46 /* Debug */,
+				5A14FE20B6A92A31A547630866E16016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

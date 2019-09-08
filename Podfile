@@ -3,11 +3,7 @@ inhibit_all_warnings!
 
 target 'ArtistFinder' do
 
-  # Add all your pods here
-
-
-  # Supernova Pods
-
+  pod "Pulsator"
 
 end
 

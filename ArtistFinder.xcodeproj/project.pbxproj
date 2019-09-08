@@ -10,6 +10,7 @@
 		046C1A40F10DEC1AC24984E7 /* PopularItem2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331E8029A4D92B2743C46D1B /* PopularItem2CollectionViewCell.swift */; };
 		05FECBA1B104571EAE48612F /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307AC38D1E860DACA4381533 /* MusicPlayerViewController.swift */; };
 		0A404278050D103D5434F203 /* PopularItem1TwoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F196F359809E057ADB48B /* PopularItem1TwoCollectionViewCell.swift */; };
+		0CBF27568A541F19FEA5FCB3 /* libPods-ArtistFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 886BC94A8DB5C2D0A8B87915 /* libPods-ArtistFinder.a */; };
 		0D425D656A034E07D944306A /* ArtistProfile2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E01585930A26C114B9C /* ArtistProfile2ViewController.swift */; };
 		0E39312354BB461B144B4380 /* NSMutableParagraphStyle+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD51F2B3CB6A9126F6BA44 /* NSMutableParagraphStyle+Utility.swift */; };
 		185CAA9A3C4F61A23EB2E7A0 /* SupernovaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057815E23C45AEEAB55E3E75 /* SupernovaTextField.swift */; };
@@ -21,6 +22,8 @@
 		71DB5A514232D4B459DA85D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087FD25F7504D6A5F470FF5 /* AppDelegate.swift */; };
 		84CB9234879005E97807B451 /* PopularItem1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABAB330569CA55E1A06B7A /* PopularItem1CollectionViewCell.swift */; };
 		8DD8530A9CC06386FB02FE46 /* SupernovaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738F417DF72485C2B5FEAC15 /* SupernovaButton.swift */; };
+		9962B0072325B35E00B6C4B8 /* WelcomeViewController+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B0062325B35E00B6C4B8 /* WelcomeViewController+Animations.swift */; };
+		9962B0092325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B0082325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift */; };
 		996747427206765670974A7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7989D2F63A3CDA093CE30CBC /* Images.xcassets */; };
 		9A331BBFE870D4350C28ACDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3144204136E9A428AD40AF90 /* Main.storyboard */; };
 		A038E0A5154EC49320EE9B6B /* LatestItem1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FEC7EEA817F9B9BE06A66F /* LatestItem1TableViewCell.swift */; };
@@ -45,14 +48,19 @@
 		331E8029A4D92B2743C46D1B /* PopularItem2CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularItem2CollectionViewCell.swift; sourceTree = "<group>"; };
 		6087FD25F7504D6A5F470FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CB1DE07B92015CDC4B4F388 /* PopularItem3CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularItem3CollectionViewCell.swift; sourceTree = "<group>"; };
+		6F50253EC3AF1709231AB53E /* Pods-ArtistFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtistFinder.release.xcconfig"; path = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.release.xcconfig"; sourceTree = "<group>"; };
 		726F196F359809E057ADB48B /* PopularItem1TwoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularItem1TwoCollectionViewCell.swift; sourceTree = "<group>"; };
 		738F417DF72485C2B5FEAC15 /* SupernovaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupernovaButton.swift; sourceTree = "<group>"; };
 		7989D2F63A3CDA093CE30CBC /* Images.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79ADDB1F097422D31C5C1DD5 /* UINavigationController+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Utility.swift"; sourceTree = "<group>"; };
 		85916B2A55844A1A6EC478D2 /* UIImage+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utility.swift"; sourceTree = "<group>"; };
+		886BC94A8DB5C2D0A8B87915 /* libPods-ArtistFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArtistFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5A722EB57EA02178E87DD9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9962B0062325B35E00B6C4B8 /* WelcomeViewController+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeViewController+Animations.swift"; sourceTree = "<group>"; };
+		9962B0082325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeViewController+Setup.swift"; sourceTree = "<group>"; };
 		B1EFAC39497E5B089B086767 /* UISearchBar+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Utility.swift"; sourceTree = "<group>"; };
 		B5FEC7EEA817F9B9BE06A66F /* LatestItem1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestItem1TableViewCell.swift; sourceTree = "<group>"; };
+		B8E2E66D12424CAF1F3C6CE4 /* Pods-ArtistFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtistFinder.debug.xcconfig"; path = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		CD5061F759A157A995E2C70B /* LatestItem2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestItem2TableViewCell.swift; sourceTree = "<group>"; };
 		D0AE3E01585930A26C114B9C /* ArtistProfile2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistProfile2ViewController.swift; sourceTree = "<group>"; };
 		DA3410B77AE1083B4936307E /* UITabBarController+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Utility.swift"; sourceTree = "<group>"; };
@@ -69,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CBF27568A541F19FEA5FCB3 /* libPods-ArtistFinder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +89,8 @@
 			children = (
 				6286105D1F80305963DDDE78 /* ArtistFinder */,
 				0B28DFDA1E40CD2E00BF6E7C /* Products */,
+				3C361F3A45A4FDFD3E5DA22A /* Pods */,
+				AD0FAAB90180A1CABB6F4255 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				EF3CA542EB4235C6A91DD495 /* WelcomeViewController.swift */,
+				9962B0082325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift */,
+				9962B0062325B35E00B6C4B8 /* WelcomeViewController+Animations.swift */,
 			);
 			path = WelcomeViewController;
 			sourceTree = "<group>";
@@ -121,6 +134,15 @@
 				EC9029C78C07C1D4FDAD7046 /* LogInViewController.swift */,
 			);
 			path = LogInViewController;
+			sourceTree = "<group>";
+		};
+		3C361F3A45A4FDFD3E5DA22A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8E2E66D12424CAF1F3C6CE4 /* Pods-ArtistFinder.debug.xcconfig */,
+				6F50253EC3AF1709231AB53E /* Pods-ArtistFinder.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		6286105D1F80305963DDDE78 /* ArtistFinder */ = {
@@ -167,6 +189,14 @@
 				3144204136E9A428AD40AF90 /* Main.storyboard */,
 			);
 			path = Interface;
+			sourceTree = "<group>";
+		};
+		AD0FAAB90180A1CABB6F4255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				886BC94A8DB5C2D0A8B87915 /* libPods-ArtistFinder.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AD8FBD3314D746365130291A /* ArtistProfile2ViewController */ = {
@@ -251,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B6093D11E68BCDD00C80262 /* Build configuration list for PBXNativeTarget "ArtistFinder" */;
 			buildPhases = (
+				C7FB793996777EC614F7C436 /* [CP] Check Pods Manifest.lock */,
 				0B6093BA1E68BCDD00C80262 /* Sources */,
 				0B6093BB1E68BCDD00C80262 /* Frameworks */,
 				0B6093BC1E68BCDD00C80262 /* Resources */,
@@ -310,6 +341,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C7FB793996777EC614F7C436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtistFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B6093BA1E68BCDD00C80262 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -325,6 +381,7 @@
 				E5FD59F8E158424F504241CD /* WelcomeViewController.swift in Sources */,
 				185CAA9A3C4F61A23EB2E7A0 /* SupernovaTextField.swift in Sources */,
 				D0E1CD4EFDF5CE3F5F6917A6 /* PopularItem1ThreeCollectionViewCell.swift in Sources */,
+				9962B0072325B35E00B6C4B8 /* WelcomeViewController+Animations.swift in Sources */,
 				265A66CEB58509EF94DEF85B /* UITabBarController+Utility.swift in Sources */,
 				F0F10635CF5CD4AFD673BC7B /* PopularItem3CollectionViewCell.swift in Sources */,
 				A54951F1050EBFCA351EA4F9 /* UILabel+Utility.swift in Sources */,
@@ -335,6 +392,7 @@
 				71DB5A514232D4B459DA85D5 /* AppDelegate.swift in Sources */,
 				046C1A40F10DEC1AC24984E7 /* PopularItem2CollectionViewCell.swift in Sources */,
 				6793284656386757F6C3EB8A /* HomeViewController.swift in Sources */,
+				9962B0092325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift in Sources */,
 				EE9A35F8FCEAFBDEEFC667E9 /* UINavigationController+Utility.swift in Sources */,
 				8DD8530A9CC06386FB02FE46 /* SupernovaButton.swift in Sources */,
 				2BE08F6B1ECBD5CCFC4C6DAA /* SupernovaLabel.swift in Sources */,
@@ -428,6 +486,7 @@
 		};
 		0B6093CF1E68BCDD00C80262 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E2E66D12424CAF1F3C6CE4 /* Pods-ArtistFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -442,6 +501,7 @@
 		};
 		0B6093D01E68BCDD00C80262 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F50253EC3AF1709231AB53E /* Pods-ArtistFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
