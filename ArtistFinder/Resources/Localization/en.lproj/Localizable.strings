@@ -1,0 +1,42 @@
+
+
+/* Welcome */
+"Welcome.identifyTheMediaPLabel" = "Identify the media playing around you and discover lyrics.";
+"Welcome.muzikaLogoButton" = "";
+
+
+/* LogIn */
+"LogIn.donTHaveAnAccounLabel" = "DON’T HAVE AN ACCOUNT?";
+"LogIn.loginButtonButton" = "";
+"LogIn.emailAdressLabel" = "EMAIL ADRESS";
+"LogIn.passwordLabel" = "PASSWORD";
+"LogIn.forgotYourPasswordLabel" = "FORGOT YOUR PASSWORD?";
+
+
+/* Home */
+"Home.latestArtistsLabel" = "LATEST ARTISTS";
+"Home.viewAllLabel" = "VIEW ALL";
+"LatestItem1TableViewCell.songsLabel" = "237 Songs";
+"LatestItem1TwoTableViewCell.songsLabel" = "237 Songs";
+"LatestItem2TableViewCell.songsLabel" = "37 Songs";
+"Home.popularArtistsLabel" = "POPULAR ARTISTS";
+"Home.viewAllTwoLabel" = "VIEW ALL";
+"PopularItem3CollectionViewCell.songsLabel" = "98 Songs";
+"PopularItem2CollectionViewCell.songsLabel" = "296 Songs";
+"PopularItem1CollectionViewCell.songsLabel" = "195 Songs";
+"PopularItem1TwoCollectionViewCell.songsLabel" = "195 Songs";
+"PopularItem1ThreeCollectionViewCell.songsLabel" = "195 Songs";
+"Home.searchForArtistSLabel" = "Search for artist, song or lyrics…";
+"Home.homeLabel" = "HOME";
+
+
+/* MusicPlayer */
+"MusicPlayer.dieAntwordLabel" = "DIE ANTWOR";
+"MusicPlayer.playerLabel" = "PLAYER";
+
+
+/* ArtistDetail */
+"ArtistProfile2.popularSongsLabel" = "POPULAR SONGS";
+"ArtistProfile2.coldplayAreABritiLabel" = "Coldplay are a British rock band formed in 1996 by lead vocalist and keyboardist Chris Martin.";
+"ArtistProfile2.alternativeRockLabel" = "ALTERNATIVE ROCK";
+"ArtistProfile2.artistLabel" = "ARTIST";

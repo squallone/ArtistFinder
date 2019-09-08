@@ -1,0 +1,21 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "images" : [
+    {
+      "filename" : "image-6@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "image-6@3x.png",
+      "scale" : "3x",
+      "idiom" : "universal"
+    }
+  ],
+  "properties" : {
+    "template-rendering-intent" : "original"
+  }
+}
