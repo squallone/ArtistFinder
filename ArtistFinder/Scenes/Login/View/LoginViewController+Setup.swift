@@ -1,64 +1,18 @@
 //
-//  LogInViewController.swift
+//  LoginViewController+Setup.swift
 //  ArtistFinder
 //
-//  Created by Abdiel Soto.
-//  Copyright © 2018 iOSDevsMx. All rights reserved.
+//  Created by Abdiel Soto Barrera  (Vendor) on 9/8/19.
+//  Copyright © 2019 iOSDevsMx. All rights reserved.
 //
 
-// --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
-// MARK: - Import
-
 import UIKit
-import SkyFloatingLabelTextField
-// --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
-// MARK: - Implementation
 
-class LogInViewController: UIViewController {
-
-
-    // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
-    // MARK: - Properties
-
-    @IBOutlet weak var backgroundView: UIView!
-    @IBOutlet weak var donTHaveAnAccounLabel: UILabel!
-    @IBOutlet weak var loginButtonButton: SupernovaButton!
-    @IBOutlet weak var formView: UIView!
-    @IBOutlet weak var backgroundTwoView: UIView!
-    @IBOutlet weak var emailAdressLabel: SkyFloatingLabelTextField!
-    @IBOutlet weak var passwordLabel: SkyFloatingLabelTextField!
-    @IBOutlet weak var forgotYourPasswordLabel: UILabel!
-    @IBOutlet weak var muzikaLogoImageView: UIImageView!
-    private var allGradientLayers: [CAGradientLayer] = []
-
+extension LogInViewController {
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
-    // MARK: - Lifecycle
-
-    override public func viewDidLoad()  {
-        super.viewDidLoad()
-        setupComponents()
-        setupUI()
-        setupGestureRecognizers()
-        setupLocalization()
-        
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override public func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        // Navigation bar, if any
-        navigationController?.setNavigationBarHidden(true, animated: true)
-        // Animations
-        animationOne()
-        animationTwo()
-    }
-
-
-    // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
     // MARK: - Setup
-
-    private func setupComponents()  {
+    
+    func setupComponents()  {
         // Setup backgroundView
         let backgroundViewGradient = CAGradientLayer()
         backgroundViewGradient.colors = [UIColor(red: 0.129, green: 0.161, blue: 0.224, alpha: 1).cgColor /* #212939 */, UIColor(red: 0.086, green: 0.102, blue: 0.141, alpha: 1).cgColor /* #161A24 */]
@@ -76,7 +30,7 @@ class LogInViewController: UIViewController {
             .foregroundColor : UIColor(red: 0.55, green: 0.6, blue: 0.7, alpha: 1),
             .kern : 2,
             .paragraphStyle : NSMutableParagraphStyle(alignment: .center, lineHeight: nil, paragraphSpacing: 0)
-        ])
+            ])
         donTHaveAnAccounLabel.attributedText = donTHaveAnAccounLabelAttrString
         
         // Setup loginButtonButton
@@ -109,7 +63,7 @@ class LogInViewController: UIViewController {
         emailAdressLabel.titleFont = UIFont.systemFont(ofSize: 10)
         emailAdressLabel.selectedTitleColor = .white
         emailAdressLabel.titleColor = .white
-
+        
         passwordLabel.font = UIFont.systemFont(ofSize: 10)
         passwordLabel.textAlignment = .center
         passwordLabel.titleLabel.textAlignment = .center
@@ -117,7 +71,7 @@ class LogInViewController: UIViewController {
         passwordLabel.selectedTitleColor = .white
         passwordLabel.titleColor = .white
         passwordLabel.isSecureTextEntry = true
-
+        
         
         // Setup forgotYourPasswordLabel
         let forgotYourPasswordLabelAttrString = NSMutableAttributedString(string: "FORGOT YOUR PASSWORD?", attributes: [
@@ -125,56 +79,14 @@ class LogInViewController: UIViewController {
             .foregroundColor : UIColor(red: 0.55, green: 0.6, blue: 0.7, alpha: 1),
             .kern : 1.67,
             .paragraphStyle : NSMutableParagraphStyle(alignment: .center, lineHeight: nil, paragraphSpacing: 0)
-        ])
+            ])
         forgotYourPasswordLabel.attributedText = forgotYourPasswordLabelAttrString
         
         // Setup muzikaLogoImageView
         
     }
-
-    private func setupUI()  {
+    
+    func setupUI()  {
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
-
-    private func setupGestureRecognizers()  {
-    
-    }
-
-    private func setupLocalization()  {
-    
-    }
-
-
-    // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
-    // MARK: - Layout
-
-    override public func viewDidLayoutSubviews()  {
-        super.viewDidLayoutSubviews()
-        for layer in allGradientLayers {
-            layer.frame = layer.superlayer?.frame ?? CGRect.zero
-        }
-    }
-
-
-    // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
-    // MARK: - Status Bar
-
-    override public var prefersStatusBarHidden: Bool  {
-        return true
-    }
-
-    override public var preferredStatusBarStyle: UIStatusBarStyle  {
-        return .default
-    }
-
-    // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
-    // MARK: - Actions
-
-    @IBAction public func onButtonPressed(_ sender: UIButton)  {
-        performSegue(withIdentifier: "Modal Home", sender: nil)
-        animationOne()
-        animationTwo()
-    }
-
-
 }
