@@ -4,6 +4,7 @@ inhibit_all_warnings!
 target 'ArtistFinder' do
 
   pod "Pulsator"
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
 
 end
 

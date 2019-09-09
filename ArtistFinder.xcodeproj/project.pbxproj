@@ -24,6 +24,7 @@
 		8DD8530A9CC06386FB02FE46 /* SupernovaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738F417DF72485C2B5FEAC15 /* SupernovaButton.swift */; };
 		9962B0072325B35E00B6C4B8 /* WelcomeViewController+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B0062325B35E00B6C4B8 /* WelcomeViewController+Animations.swift */; };
 		9962B0092325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B0082325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift */; };
+		9962B00B2325C2E600B6C4B8 /* LoginViewController+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B00A2325C2E600B6C4B8 /* LoginViewController+Animations.swift */; };
 		996747427206765670974A7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7989D2F63A3CDA093CE30CBC /* Images.xcassets */; };
 		9A331BBFE870D4350C28ACDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3144204136E9A428AD40AF90 /* Main.storyboard */; };
 		A038E0A5154EC49320EE9B6B /* LatestItem1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FEC7EEA817F9B9BE06A66F /* LatestItem1TableViewCell.swift */; };
@@ -40,7 +41,7 @@
 /* Begin PBXFileReference section */
 		03A653C8D818EF039666C5A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Info.plist; sourceTree = "<group>"; };
 		057815E23C45AEEAB55E3E75 /* SupernovaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupernovaTextField.swift; sourceTree = "<group>"; };
-		0B6093BE1E68BCDD00C80262 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Production.app; path = ArtistFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6093BE1E68BCDD00C80262 /* ArtistFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtistFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ABAB330569CA55E1A06B7A /* PopularItem1CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularItem1CollectionViewCell.swift; sourceTree = "<group>"; };
 		26FD51F2B3CB6A9126F6BA44 /* NSMutableParagraphStyle+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableParagraphStyle+Utility.swift"; sourceTree = "<group>"; };
 		307AC38D1E860DACA4381533 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		8A5A722EB57EA02178E87DD9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9962B0062325B35E00B6C4B8 /* WelcomeViewController+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeViewController+Animations.swift"; sourceTree = "<group>"; };
 		9962B0082325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeViewController+Setup.swift"; sourceTree = "<group>"; };
+		9962B00A2325C2E600B6C4B8 /* LoginViewController+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+Animations.swift"; sourceTree = "<group>"; };
 		B1EFAC39497E5B089B086767 /* UISearchBar+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Utility.swift"; sourceTree = "<group>"; };
 		B5FEC7EEA817F9B9BE06A66F /* LatestItem1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestItem1TableViewCell.swift; sourceTree = "<group>"; };
 		B8E2E66D12424CAF1F3C6CE4 /* Pods-ArtistFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtistFinder.debug.xcconfig"; path = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +99,7 @@
 		0B28DFDA1E40CD2E00BF6E7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B6093BE1E68BCDD00C80262 /* Production.app */,
+				0B6093BE1E68BCDD00C80262 /* ArtistFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				EC9029C78C07C1D4FDAD7046 /* LogInViewController.swift */,
+				9962B00A2325C2E600B6C4B8 /* LoginViewController+Animations.swift */,
 			);
 			path = LogInViewController;
 			sourceTree = "<group>";
@@ -292,7 +295,7 @@
 			);
 			name = ArtistFinder;
 			productName = Production;
-			productReference = 0B6093BE1E68BCDD00C80262 /* Production.app */;
+			productReference = 0B6093BE1E68BCDD00C80262 /* ArtistFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -394,6 +397,7 @@
 				6793284656386757F6C3EB8A /* HomeViewController.swift in Sources */,
 				9962B0092325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift in Sources */,
 				EE9A35F8FCEAFBDEEFC667E9 /* UINavigationController+Utility.swift in Sources */,
+				9962B00B2325C2E600B6C4B8 /* LoginViewController+Animations.swift in Sources */,
 				8DD8530A9CC06386FB02FE46 /* SupernovaButton.swift in Sources */,
 				2BE08F6B1ECBD5CCFC4C6DAA /* SupernovaLabel.swift in Sources */,
 			);

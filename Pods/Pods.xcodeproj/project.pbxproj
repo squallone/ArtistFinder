@@ -7,43 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80D23EE470CBCECBA068923B716B863A /* Pods-ArtistFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96EF44C67D51BB85B05AB5F8EC7BEF /* Pods-ArtistFinder-dummy.m */; };
-		9A1A40C8E53A27F9045F3443AEA3012A /* Pulsator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F8F10DE8B00E8F49EDDB8DC14CB9D8 /* Pulsator-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A985F0EE982FF477981E172FDABCB0D0 /* Pulsator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B8FD5367301FECF9C473F532467BD7 /* Pulsator-dummy.m */; };
-		E6B84005B1B25A4FB42CEBD7A6D80656 /* Pods-ArtistFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F506F17AA244F2E37F556FD5FA00EF3B /* Pods-ArtistFinder-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F3ECCF66EDEFA3D1D1FAC798CA87065E /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9144B67572C0BD8796D3E1E79886B227 /* Pulsator.swift */; };
+		0B463C0F5CE968F3AB2221502C9E7E7D /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E987FC706EADFED6ADE79B4ABA350D1C /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A0C7806CE4676AB6324A5883D06CA0F /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679497C41064A010424C9411003F67CA /* UITextField+fixCaretPosition.swift */; };
+		9A1A40C8E53A27F9045F3443AEA3012A /* Pulsator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83ACE6043C2502D297CBD541CE625F4F /* Pulsator-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C89E3B78B5F7F2A27149F99B367FB12 /* Pods-ArtistFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96EF44C67D51BB85B05AB5F8EC7BEF /* Pods-ArtistFinder-dummy.m */; };
+		A43A169F78E7861D89E0A613719F2591 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B137EE039DF8FBD03B98E1C8BA406468 /* SkyFloatingLabelTextField-dummy.m */; };
+		A985F0EE982FF477981E172FDABCB0D0 /* Pulsator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A23069D28E3E36478320284521CF4135 /* Pulsator-dummy.m */; };
+		C623B4B4E9329C23C682837AF8388440 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E935F034AB58C62F8E852D2C01C04 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		F3ECCF66EDEFA3D1D1FAC798CA87065E /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63437C936008FE8282F22A54AE6487 /* Pulsator.swift */; };
+		F70A2158F8DA2A8B51BD7303F9E2925B /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C290D39A872157253E50A38461CBD69 /* SkyFloatingLabelTextField.swift */; };
+		FCF2E20BDCEAA784634008384583926B /* Pods-ArtistFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F506F17AA244F2E37F556FD5FA00EF3B /* Pods-ArtistFinder-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F3707A6A5D1CBA7D20F2D09BD1D32BF4 /* PBXContainerItemProxy */ = {
+		30A4233619C49E477230E1DE0AEEE076 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E5BBA75F847DD6D3B2E202F6F0E9A01C;
 			remoteInfo = Pulsator;
 		};
+		5E95D58442FF585E0329ADD22BD452B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0017F06D108FB55F0594C12FEA204835 /* Pulsator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulsator.xcconfig; sourceTree = "<group>"; };
+		0ABEA968F50AC58034795206CA551B02 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		0B9F7B9DD9A9C25AEC836D361F5CC973 /* Pods-ArtistFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtistFinder-acknowledgements.plist"; sourceTree = "<group>"; };
-		29B8FD5367301FECF9C473F532467BD7 /* Pulsator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulsator-dummy.m"; sourceTree = "<group>"; };
+		2C137A958931692601B58D8B6241E24A /* Pulsator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-prefix.pch"; sourceTree = "<group>"; };
+		459B3A8E777CF118FD80A16135847191 /* Pulsator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulsator.modulemap; sourceTree = "<group>"; };
+		4C290D39A872157253E50A38461CBD69 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
 		5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ArtistFinder.a"; path = "libPods-ArtistFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5347690E3A757F6A8AC01222A6B8A1A5 /* Pods-ArtistFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArtistFinder.modulemap"; sourceTree = "<group>"; };
-		7CE6626224F5D2E2437DF82603AA4B5B /* Pulsator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-prefix.pch"; sourceTree = "<group>"; };
-		86F8F10DE8B00E8F49EDDB8DC14CB9D8 /* Pulsator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-umbrella.h"; sourceTree = "<group>"; };
+		679497C41064A010424C9411003F67CA /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		83ACE6043C2502D297CBD541CE625F4F /* Pulsator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-umbrella.h"; sourceTree = "<group>"; };
 		8707CA37A1EA9A04FE987A2CB0264695 /* Pods-ArtistFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtistFinder.debug.xcconfig"; sourceTree = "<group>"; };
-		9144B67572C0BD8796D3E1E79886B227 /* Pulsator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pulsator.swift; path = Pulsator/Pulsator.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A23069D28E3E36478320284521CF4135 /* Pulsator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulsator-dummy.m"; sourceTree = "<group>"; };
 		A803FC940286873F4A4490F426D47D0A /* Pods-ArtistFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtistFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B251FC08B63A5D8C7D944CEB02EE7A44 /* Pulsator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulsator.modulemap; sourceTree = "<group>"; };
+		AB1E935F034AB58C62F8E852D2C01C04 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		B137EE039DF8FBD03B98E1C8BA406468 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
 		BF96EF44C67D51BB85B05AB5F8EC7BEF /* Pods-ArtistFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtistFinder-dummy.m"; sourceTree = "<group>"; };
 		C7A592866C1B096729D1ABB0AA6E1A81 /* Pods-ArtistFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtistFinder.release.xcconfig"; sourceTree = "<group>"; };
+		D3345187669EC240242F1CD8BADE6F20 /* Pulsator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulsator.xcconfig; sourceTree = "<group>"; };
+		D392C11EB32EACD5EC9C8D37B51482B6 /* libSkyFloatingLabelTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSkyFloatingLabelTextField.a; path = libSkyFloatingLabelTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA63437C936008FE8282F22A54AE6487 /* Pulsator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pulsator.swift; path = Pulsator/Pulsator.swift; sourceTree = "<group>"; };
+		E5283190D1049F450442DD87BE0823EC /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		E987FC706EADFED6ADE79B4ABA350D1C /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		F506F17AA244F2E37F556FD5FA00EF3B /* Pods-ArtistFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtistFinder-umbrella.h"; sourceTree = "<group>"; };
+		FBDA9ED75550A333F6BCD9032507BA32 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		FF0CD94CB8F5CD73FEE61C7562214EE5 /* libPulsator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPulsator.a; path = libPulsator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		95C25DB9BA5C14D58406F54F49F7C7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3FE73629A8AD975B6E98A45D503A4E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,7 +79,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F03312CAEE403A9BC2E3C6824A74246F /* Frameworks */ = {
+		E50133A7034C554C6A2A4FEA1A210B75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,35 +89,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EC53C45E45B76661A610152C34CC046 /* Pulsator */ = {
+		2A30D101D1DF3B2AFF4B768BE53496E7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9144B67572C0BD8796D3E1E79886B227 /* Pulsator.swift */,
-				5C7F5530708CED1CE338C65D70D91242 /* Support Files */,
+				459B3A8E777CF118FD80A16135847191 /* Pulsator.modulemap */,
+				D3345187669EC240242F1CD8BADE6F20 /* Pulsator.xcconfig */,
+				A23069D28E3E36478320284521CF4135 /* Pulsator-dummy.m */,
+				2C137A958931692601B58D8B6241E24A /* Pulsator-prefix.pch */,
+				83ACE6043C2502D297CBD541CE625F4F /* Pulsator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pulsator";
+			sourceTree = "<group>";
+		};
+		2D0B5079ED15B38F45E329B26DA5AF75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59D6B91A8FB6D89D19E5CAF48F586F3B /* Pulsator */,
+				9A2E4C8035FA8FF8C937AC6E80CA08A7 /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59D6B91A8FB6D89D19E5CAF48F586F3B /* Pulsator */ = {
+			isa = PBXGroup;
+			children = (
+				DA63437C936008FE8282F22A54AE6487 /* Pulsator.swift */,
+				2A30D101D1DF3B2AFF4B768BE53496E7 /* Support Files */,
 			);
 			name = Pulsator;
 			path = Pulsator;
 			sourceTree = "<group>";
 		};
-		4426925DF0F65CDFDB68CC5C399DC65E /* Pods */ = {
+		9A2E4C8035FA8FF8C937AC6E80CA08A7 /* SkyFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				0EC53C45E45B76661A610152C34CC046 /* Pulsator */,
+				4C290D39A872157253E50A38461CBD69 /* SkyFloatingLabelTextField.swift */,
+				AB1E935F034AB58C62F8E852D2C01C04 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				679497C41064A010424C9411003F67CA /* UITextField+fixCaretPosition.swift */,
+				BD6432839EA2F6D8F149E2676C5646A6 /* Support Files */,
 			);
-			name = Pods;
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
-		5C7F5530708CED1CE338C65D70D91242 /* Support Files */ = {
+		BD6432839EA2F6D8F149E2676C5646A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B251FC08B63A5D8C7D944CEB02EE7A44 /* Pulsator.modulemap */,
-				0017F06D108FB55F0594C12FEA204835 /* Pulsator.xcconfig */,
-				29B8FD5367301FECF9C473F532467BD7 /* Pulsator-dummy.m */,
-				7CE6626224F5D2E2437DF82603AA4B5B /* Pulsator-prefix.pch */,
-				86F8F10DE8B00E8F49EDDB8DC14CB9D8 /* Pulsator-umbrella.h */,
+				0ABEA968F50AC58034795206CA551B02 /* SkyFloatingLabelTextField.modulemap */,
+				E5283190D1049F450442DD87BE0823EC /* SkyFloatingLabelTextField.xcconfig */,
+				B137EE039DF8FBD03B98E1C8BA406468 /* SkyFloatingLabelTextField-dummy.m */,
+				FBDA9ED75550A333F6BCD9032507BA32 /* SkyFloatingLabelTextField-prefix.pch */,
+				E987FC706EADFED6ADE79B4ABA350D1C /* SkyFloatingLabelTextField-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Pulsator";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
 			sourceTree = "<group>";
 		};
 		C2A6D65BDAFA1BC48B86A9935B777E55 /* Targets Support Files */ = {
@@ -105,17 +159,18 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				4426925DF0F65CDFDB68CC5C399DC65E /* Pods */,
-				CF5AE5263205AFED42C4E130FE9AB65A /* Products */,
+				2D0B5079ED15B38F45E329B26DA5AF75 /* Pods */,
+				D3987660BE814FA01BF018F0D975BE0F /* Products */,
 				C2A6D65BDAFA1BC48B86A9935B777E55 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CF5AE5263205AFED42C4E130FE9AB65A /* Products */ = {
+		D3987660BE814FA01BF018F0D975BE0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */,
 				FF0CD94CB8F5CD73FEE61C7562214EE5 /* libPulsator.a */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* libSkyFloatingLabelTextField.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,11 +208,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26B805A880D390D24817F9D313BC03A8 /* Headers */ = {
+		6BCD09BA7B515E384E745ED671F91FBB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B84005B1B25A4FB42CEBD7A6D80656 /* Pods-ArtistFinder-umbrella.h in Headers */,
+				FCF2E20BDCEAA784634008384583926B /* Pods-ArtistFinder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE8D3AE01E7D21363397D44C0997833 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B463C0F5CE968F3AB2221502C9E7E7D /* SkyFloatingLabelTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,20 +229,39 @@
 /* Begin PBXNativeTarget section */
 		A7450BEB5975700C91D05F49F247D173 /* Pods-ArtistFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 932ADCD2739C38BF9A66BAD151595CEF /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */;
+			buildConfigurationList = 1AA4CBE8BD3D296E5B0496C9FD262C31 /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */;
 			buildPhases = (
-				26B805A880D390D24817F9D313BC03A8 /* Headers */,
-				BE49962BAF2B3590B4DD63B9C35D2C8F /* Sources */,
-				F03312CAEE403A9BC2E3C6824A74246F /* Frameworks */,
+				6BCD09BA7B515E384E745ED671F91FBB /* Headers */,
+				511D5426690923E548623C0F14FACB4C /* Sources */,
+				95C25DB9BA5C14D58406F54F49F7C7DD /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB9994E05980C2B41D9D82750B533973 /* PBXTargetDependency */,
+				5ADD14D63D11431E9F37321004BFDBF8 /* PBXTargetDependency */,
+				5A58F22FF1160C2C88C0A483AC931CCD /* PBXTargetDependency */,
 			);
 			name = "Pods-ArtistFinder";
 			productName = "Pods-ArtistFinder";
 			productReference = 5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D88856F6694B44F2B54095426A886 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				7BE8D3AE01E7D21363397D44C0997833 /* Headers */,
+				CD1A67D8C7D4FA80CABDCD1F91768609 /* Sources */,
+				E50133A7034C554C6A2A4FEA1A210B75 /* Frameworks */,
+				8E62C96A1240D6DD7111C7DDCC12BA65 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = D392C11EB32EACD5EC9C8D37B51482B6 /* libSkyFloatingLabelTextField.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */ = {
@@ -217,17 +299,42 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CF5AE5263205AFED42C4E130FE9AB65A /* Products */;
+			productRefGroup = D3987660BE814FA01BF018F0D975BE0F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A7450BEB5975700C91D05F49F247D173 /* Pods-ArtistFinder */,
 				E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */,
+				DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8E62C96A1240D6DD7111C7DDCC12BA65 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap",
+				"${PODS_ROOT}/Headers/Public/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
 		E468191FEA79EB71DCEA3B2F75D8D8E7 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,22 +371,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE49962BAF2B3590B4DD63B9C35D2C8F /* Sources */ = {
+		511D5426690923E548623C0F14FACB4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D23EE470CBCECBA068923B716B863A /* Pods-ArtistFinder-dummy.m in Sources */,
+				9C89E3B78B5F7F2A27149F99B367FB12 /* Pods-ArtistFinder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1A67D8C7D4FA80CABDCD1F91768609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43A169F78E7861D89E0A613719F2591 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				F70A2158F8DA2A8B51BD7303F9E2925B /* SkyFloatingLabelTextField.swift in Sources */,
+				C623B4B4E9329C23C682837AF8388440 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				9A0C7806CE4676AB6324A5883D06CA0F /* UITextField+fixCaretPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BB9994E05980C2B41D9D82750B533973 /* PBXTargetDependency */ = {
+		5A58F22FF1160C2C88C0A483AC931CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = 5E95D58442FF585E0329ADD22BD452B4 /* PBXContainerItemProxy */;
+		};
+		5ADD14D63D11431E9F37321004BFDBF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Pulsator;
 			target = E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */;
-			targetProxy = F3707A6A5D1CBA7D20F2D09BD1D32BF4 /* PBXContainerItemProxy */;
+			targetProxy = 30A4233619C49E477230E1DE0AEEE076 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -344,34 +468,35 @@
 			};
 			name = Release;
 		};
-		585895756CCC653F609D6270BED63286 /* Release */ = {
+		3460A2BCF4551056A64003E6C516007F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7A592866C1B096729D1ABB0AA6E1A81 /* Pods-ArtistFinder.release.xcconfig */;
+			baseConfigurationReference = E5283190D1049F450442DD87BE0823EC /* SkyFloatingLabelTextField.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		5A14FE20B6A92A31A547630866E16016 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0017F06D108FB55F0594C12FEA204835 /* Pulsator.xcconfig */;
+			baseConfigurationReference = D3345187669EC240242F1CD8BADE6F20 /* Pulsator.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -396,7 +521,7 @@
 			};
 			name = Release;
 		};
-		78FCDFD7F7ADED1AD63DA0E32CB56677 /* Debug */ = {
+		93E8524DAB8E94926B315E9F1DCEA467 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8707CA37A1EA9A04FE987A2CB0264695 /* Pods-ArtistFinder.debug.xcconfig */;
 			buildSettings = {
@@ -422,7 +547,7 @@
 		};
 		B8AD61AD8B60C62684CB68070085CF46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0017F06D108FB55F0594C12FEA204835 /* Pulsator.xcconfig */;
+			baseConfigurationReference = D3345187669EC240242F1CD8BADE6F20 /* Pulsator.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -445,6 +570,33 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		BED9EF142CC3C883BFB65F1C9304E219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5283190D1049F450442DD87BE0823EC /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -510,23 +662,57 @@
 			};
 			name = Debug;
 		};
+		EB09E75AC1C2A89EC34E530B6F2580E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A592866C1B096729D1ABB0AA6E1A81 /* Pods-ArtistFinder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1AA4CBE8BD3D296E5B0496C9FD262C31 /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E8524DAB8E94926B315E9F1DCEA467 /* Debug */,
+				EB09E75AC1C2A89EC34E530B6F2580E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D88856F6694B44F2B54095426A886 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3460A2BCF4551056A64003E6C516007F /* Debug */,
+				BED9EF142CC3C883BFB65F1C9304E219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
 				257497152829C177993B5EC99C1D227A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		932ADCD2739C38BF9A66BAD151595CEF /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78FCDFD7F7ADED1AD63DA0E32CB56677 /* Debug */,
-				585895756CCC653F609D6270BED63286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
