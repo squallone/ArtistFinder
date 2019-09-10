@@ -1,0 +1,20 @@
+PODS:
+  - Pulsator (0.6.0)
+  - SkyFloatingLabelTextField (3.7.0)
+
+DEPENDENCIES:
+  - Pulsator
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Pulsator
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+
+PODFILE CHECKSUM: 1634b0cae51fb34eb226067073d0817207af26d9
+
+COCOAPODS: 1.7.5
