@@ -1,5 +1,5 @@
 //
-//  LatestItem1TwoTableViewCell.swift
+//  PopularItem1ThreeCollectionViewCell.swift
 //  ArtistFinder
 //
 //  Created by Abdiel Soto.
@@ -15,13 +15,13 @@ import UIKit
 // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 // MARK: - Implementation
 
-class LatestItem1TwoTableViewCell: UITableViewCell {
-
+class ArtistCollectionViewCell: UICollectionViewCell {
 
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
     // MARK: - Properties
 
     @IBOutlet weak var songsLabel: UILabel!
+    @IBOutlet weak var artistLabel: UILabel!
 
 
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -35,12 +35,8 @@ class LatestItem1TwoTableViewCell: UITableViewCell {
     }
 
     private func setupComponents()  {
-        // Selection
-        self.selectedBackgroundView = UIView()
-        self.selectedBackgroundView?.backgroundColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1) /* #D9D9D9 */
-        
         // Setup songsLabel
-        let songsLabelAttrString = NSMutableAttributedString(string: "237 Songs", attributes: [
+        let songsLabelAttrString = NSMutableAttributedString(string: "195 Songs", attributes: [
             .font : UIFont.systemFont(ofSize: 10),
             .foregroundColor : UIColor(red: 0.55, green: 0.6, blue: 0.7, alpha: 1),
             .kern : 1,
@@ -50,7 +46,9 @@ class LatestItem1TwoTableViewCell: UITableViewCell {
         
     }
 
-    private func setupLocalization()  {
-    
+    func setupData(_ data: Media)  {
+        artistLabel.text = data.artistName
+        songsLabel.text = data.trackName
+
     }
 }

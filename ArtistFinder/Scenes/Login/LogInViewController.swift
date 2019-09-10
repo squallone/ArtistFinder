@@ -28,10 +28,9 @@ class LogInViewController: UIViewController {
     var allGradientLayers: [CAGradientLayer] = []
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
     // MARK: - Properties (Controller)
-    let viewModel =
-        LoginViewControllerViewModel(emailUseCase: ValidateEmailUseCase(),
-                                     passwordUseCase: ValidatePasswordUseCase(),
-                                     loginAPI: LoginService())
+    let viewModel = LoginViewModel(emailUseCase: ValidateEmailUseCase(),
+                                   passwordUseCase: ValidatePasswordUseCase(),
+                                   loginAPI: LoginService())
     
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
     // MARK: - Lifecycle

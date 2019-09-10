@@ -21,7 +21,6 @@ protocol RequestProtocol {
 }
 
 public struct ServiceEnvironment {
-    
     var port: String
     var procotol: String
     var host: String

@@ -6,13 +6,16 @@
 //  Copyright © 2019 iOSDevsMx. All rights reserved.
 //
 
-import UIKit
-
-
 public enum Environment {
-    public static let baseURL = ServiceEnvironment(port: "",
-                                                   procotol: "https://",
-                                                   host: "jsonblob.com",
-                                                   path: "")
+    public static let loginBaseURL = ServiceEnvironment(port: "",
+                                                        procotol: "https://",
+                                                        host: "jsonblob.com",
+                                                        path: "")
+    
+    public static let searchBaseURL = ServiceEnvironment(port: "",
+                                                         procotol: "https://",
+                                                         host: "itunes.apple.com",
+                                                         path: "")
 }
+
 

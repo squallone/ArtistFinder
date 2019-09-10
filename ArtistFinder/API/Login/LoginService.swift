@@ -17,7 +17,7 @@ struct LoginService: LoginAPI {
     private let requestService: RequestService
     
     // MARK: - Initilization
-    public init(requestService: RequestService = RequestService(environment: Environment.baseURL)) {
+    public init(requestService: RequestService = RequestService(environment: Environment.loginBaseURL)) {
         self.requestService = requestService
     }
     

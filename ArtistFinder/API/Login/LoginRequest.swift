@@ -6,8 +6,6 @@
 //  Copyright © 2019 iOSDevsMx. All rights reserved.
 //
 
-import UIKit
-
 enum LoginRequest: RequestProtocol {
     case login(_ email: String, _ password: String)
     

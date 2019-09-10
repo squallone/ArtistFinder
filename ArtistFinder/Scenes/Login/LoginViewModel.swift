@@ -16,7 +16,7 @@ enum LoginViewModelState {
     case error(Error)
 }
 
-final class LoginViewControllerViewModel {
+final class LoginViewModel {
     // MARK: - Properties
     private let emailUseCase: ValidateEmailUseCase
     private let passwordUseCase: ValidatePasswordUseCase
