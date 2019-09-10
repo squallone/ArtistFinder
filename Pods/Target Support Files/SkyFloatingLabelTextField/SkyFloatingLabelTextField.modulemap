@@ -1,4 +1,4 @@
-module SkyFloatingLabelTextField {
+framework module SkyFloatingLabelTextField {
   umbrella header "SkyFloatingLabelTextField-umbrella.h"
 
   export *

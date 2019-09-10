@@ -1,4 +1,4 @@
-module Pods_ArtistFinder {
+framework module Pods_ArtistFinder {
   umbrella header "Pods-ArtistFinder-umbrella.h"
 
   export *

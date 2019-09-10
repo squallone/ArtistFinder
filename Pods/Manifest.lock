@@ -1,20 +1,34 @@
 PODS:
   - Pulsator (0.6.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
   - SkyFloatingLabelTextField (3.7.0)
 
 DEPENDENCIES:
   - Pulsator
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
   - SkyFloatingLabelTextField (~> 3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Pulsator
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
   Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
 
-PODFILE CHECKSUM: 1634b0cae51fb34eb226067073d0817207af26d9
+PODFILE CHECKSUM: 1da48a9ec64982ce2d8ee169549a40f15fc2df6c
 
 COCOAPODS: 1.7.5

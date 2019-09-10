@@ -10,13 +10,13 @@
 		046C1A40F10DEC1AC24984E7 /* PopularItem2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331E8029A4D92B2743C46D1B /* PopularItem2CollectionViewCell.swift */; };
 		05FECBA1B104571EAE48612F /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307AC38D1E860DACA4381533 /* MusicPlayerViewController.swift */; };
 		0A404278050D103D5434F203 /* PopularItem1TwoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F196F359809E057ADB48B /* PopularItem1TwoCollectionViewCell.swift */; };
-		0CBF27568A541F19FEA5FCB3 /* libPods-ArtistFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 886BC94A8DB5C2D0A8B87915 /* libPods-ArtistFinder.a */; };
 		0D425D656A034E07D944306A /* ArtistProfile2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AE3E01585930A26C114B9C /* ArtistProfile2ViewController.swift */; };
 		0E39312354BB461B144B4380 /* NSMutableParagraphStyle+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD51F2B3CB6A9126F6BA44 /* NSMutableParagraphStyle+Utility.swift */; };
 		185CAA9A3C4F61A23EB2E7A0 /* SupernovaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057815E23C45AEEAB55E3E75 /* SupernovaTextField.swift */; };
 		1D50297075D2CC87D794A330 /* LatestItem1TwoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52263E95148963F04B34E0 /* LatestItem1TwoTableViewCell.swift */; };
 		265A66CEB58509EF94DEF85B /* UITabBarController+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3410B77AE1083B4936307E /* UITabBarController+Utility.swift */; };
 		2BE08F6B1ECBD5CCFC4C6DAA /* SupernovaLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569A23673A622D14E3534B9 /* SupernovaLabel.swift */; };
+		37089D912B5C8D385DA286ED /* Pods_ArtistFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E82C064BBCBDDCA4A208867 /* Pods_ArtistFinder.framework */; };
 		5F512DB9CAD344EE5F9578F2 /* LatestItem2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5061F759A157A995E2C70B /* LatestItem2TableViewCell.swift */; };
 		6793284656386757F6C3EB8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5A722EB57EA02178E87DD9 /* HomeViewController.swift */; };
 		71DB5A514232D4B459DA85D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087FD25F7504D6A5F470FF5 /* AppDelegate.swift */; };
@@ -44,6 +44,7 @@
 		03A653C8D818EF039666C5A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Info.plist; sourceTree = "<group>"; };
 		057815E23C45AEEAB55E3E75 /* SupernovaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupernovaTextField.swift; sourceTree = "<group>"; };
 		0B6093BE1E68BCDD00C80262 /* ArtistFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtistFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E82C064BBCBDDCA4A208867 /* Pods_ArtistFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtistFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ABAB330569CA55E1A06B7A /* PopularItem1CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularItem1CollectionViewCell.swift; sourceTree = "<group>"; };
 		26FD51F2B3CB6A9126F6BA44 /* NSMutableParagraphStyle+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableParagraphStyle+Utility.swift"; sourceTree = "<group>"; };
 		307AC38D1E860DACA4381533 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		7989D2F63A3CDA093CE30CBC /* Images.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79ADDB1F097422D31C5C1DD5 /* UINavigationController+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Utility.swift"; sourceTree = "<group>"; };
 		85916B2A55844A1A6EC478D2 /* UIImage+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utility.swift"; sourceTree = "<group>"; };
-		886BC94A8DB5C2D0A8B87915 /* libPods-ArtistFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArtistFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5A722EB57EA02178E87DD9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9962B0062325B35E00B6C4B8 /* WelcomeViewController+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeViewController+Animations.swift"; sourceTree = "<group>"; };
 		9962B0082325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeViewController+Setup.swift"; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CBF27568A541F19FEA5FCB3 /* libPods-ArtistFinder.a in Frameworks */,
+				37089D912B5C8D385DA286ED /* Pods_ArtistFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +251,7 @@
 		AD0FAAB90180A1CABB6F4255 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				886BC94A8DB5C2D0A8B87915 /* libPods-ArtistFinder.a */,
+				0E82C064BBCBDDCA4A208867 /* Pods_ArtistFinder.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -342,6 +342,7 @@
 				0B6093BA1E68BCDD00C80262 /* Sources */,
 				0B6093BB1E68BCDD00C80262 /* Frameworks */,
 				0B6093BC1E68BCDD00C80262 /* Resources */,
+				D88F4F44CE7190C849E295CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -419,6 +420,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88F4F44CE7190C849E295CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Pulsator/Pulsator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulsator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -552,7 +579,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "$(SRCROOT)/ArtistFinder/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.supernova.project.Production;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.iosdevelopers.rxswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -567,7 +594,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "$(SRCROOT)/ArtistFinder/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.supernova.project.Production;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.iosdevelopers.rxswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;

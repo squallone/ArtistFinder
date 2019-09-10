@@ -1,4 +1,4 @@
-module Pulsator {
+framework module Pulsator {
   umbrella header "Pulsator-umbrella.h"
 
   export *
