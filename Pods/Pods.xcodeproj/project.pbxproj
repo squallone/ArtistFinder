@@ -7,27 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B463C0F5CE968F3AB2221502C9E7E7D /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E987FC706EADFED6ADE79B4ABA350D1C /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9A0C7806CE4676AB6324A5883D06CA0F /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679497C41064A010424C9411003F67CA /* UITextField+fixCaretPosition.swift */; };
-		9A1A40C8E53A27F9045F3443AEA3012A /* Pulsator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83ACE6043C2502D297CBD541CE625F4F /* Pulsator-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9C89E3B78B5F7F2A27149F99B367FB12 /* Pods-ArtistFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96EF44C67D51BB85B05AB5F8EC7BEF /* Pods-ArtistFinder-dummy.m */; };
-		A43A169F78E7861D89E0A613719F2591 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B137EE039DF8FBD03B98E1C8BA406468 /* SkyFloatingLabelTextField-dummy.m */; };
-		A985F0EE982FF477981E172FDABCB0D0 /* Pulsator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A23069D28E3E36478320284521CF4135 /* Pulsator-dummy.m */; };
-		C623B4B4E9329C23C682837AF8388440 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E935F034AB58C62F8E852D2C01C04 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		F3ECCF66EDEFA3D1D1FAC798CA87065E /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63437C936008FE8282F22A54AE6487 /* Pulsator.swift */; };
-		F70A2158F8DA2A8B51BD7303F9E2925B /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C290D39A872157253E50A38461CBD69 /* SkyFloatingLabelTextField.swift */; };
-		FCF2E20BDCEAA784634008384583926B /* Pods-ArtistFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F506F17AA244F2E37F556FD5FA00EF3B /* Pods-ArtistFinder-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B463C0F5CE968F3AB2221502C9E7E7D /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 743FE4AAC5A520823D17E5A04FE5CD81 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24D234DADB4B8414313AD30C5ACD98F7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3140CB94BE2AD8E45BB3E3F13372DDC /* Extensions.swift */; };
+		2ACE41406E36758EED08A0C5834E4780 /* KRActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4EDCD51A3B1C983909163774F7FF28 /* KRActivityIndicatorView.swift */; };
+		369D65F930C4BBC790A9B0FDF4A1A876 /* KRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56F64902F9A3A1CCB526600975C61A /* KRProgressHUD.swift */; };
+		407B90BFDAE37B4230AF1E961B7D3973 /* KRProgressHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB073A9CCDF7730C2CDAAC62DD92069B /* KRProgressHUDViewController.swift */; };
+		4E9A8B51FE2AE2B567C70E7F946F4DBB /* KRProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E5F30928147EDA632D9266285A8953 /* KRProgressHUD-dummy.m */; };
+		6389DF3A831BD2858C9D5B956BC12694 /* KRProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0CEEE6CCDB4F6BD52AC5D8EF08A779 /* KRProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68718EAE53E10328B8151861297D8411 /* InnerKRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E677729E476733E3DFD8F871D46A1244 /* InnerKRProgressHUD.swift */; };
+		940CF48909195539AA7CC081594881B3 /* Pods-ArtistFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96EF44C67D51BB85B05AB5F8EC7BEF /* Pods-ArtistFinder-dummy.m */; };
+		9A0C7806CE4676AB6324A5883D06CA0F /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50BF1A4CA0DB5224A62EC007074D51 /* UITextField+fixCaretPosition.swift */; };
+		9A1A40C8E53A27F9045F3443AEA3012A /* Pulsator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B006C8CA886B86FE2680D91813A4A84 /* Pulsator-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A43A169F78E7861D89E0A613719F2591 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFBBF3EAD58304FFA03DF9E712DA3B6 /* SkyFloatingLabelTextField-dummy.m */; };
+		A985F0EE982FF477981E172FDABCB0D0 /* Pulsator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A0FE701E5647384457FDD47E893469 /* Pulsator-dummy.m */; };
+		A9D5EAD0EB012E7401F1CBAA24BC31A0 /* Pods-ArtistFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F506F17AA244F2E37F556FD5FA00EF3B /* Pods-ArtistFinder-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B64C10CB28211BE255B1694770C8B67F /* KRActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC929D2A33FE7CAE701BF05E3CD119A /* KRActivityIndicatorViewStyle.swift */; };
+		C623B4B4E9329C23C682837AF8388440 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD335B7DC95261A3A1C3E1B86202939 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		C933626F0317F97CE761F9584F7E5E75 /* KRActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDB3F110B26C84B64BB122B3C248AF0 /* KRActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE2C87AA69B1CC2C23897B43DF69C9D0 /* KRActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7B671B431D860EF9EDDD769B92BA4 /* KRActivityIndicatorView-dummy.m */; };
+		F178E5AE19517F8FB754014A6A5C56D2 /* KRProgressHUDIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B92FFB8BA6B8295C2C29FF004062040 /* KRProgressHUDIconType.swift */; };
+		F3ECCF66EDEFA3D1D1FAC798CA87065E /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B53B254EF8D223E03B59502489870 /* Pulsator.swift */; };
+		F70A2158F8DA2A8B51BD7303F9E2925B /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4631A0E6D90EC124D8B1DF4676AA5C0F /* SkyFloatingLabelTextField.swift */; };
+		FF0C5BACDE050292A9104D71F5C0FE00 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4535B0E07BDFA24818B4EA91300A7A96 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		30A4233619C49E477230E1DE0AEEE076 /* PBXContainerItemProxy */ = {
+		17DAD80CE2FA508D07FE40BBCD4061DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E5BBA75F847DD6D3B2E202F6F0E9A01C;
 			remoteInfo = Pulsator;
 		};
-		5E95D58442FF585E0329ADD22BD452B4 /* PBXContainerItemProxy */ = {
+		1B7A5CCAE9FC5BCD607A2BB5E77E0668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7A1E5A05AF87570E2873C5F725E2CB;
+			remoteInfo = KRActivityIndicatorView;
+		};
+		4DC21AE5EC52AE96783A31EB0FE06E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4681533D6AA601F9C9E2A116B7472C;
+			remoteInfo = KRProgressHUD;
+		};
+		AA2899C1FEC3DA0CE2136DBA15104B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7A1E5A05AF87570E2873C5F725E2CB;
+			remoteInfo = KRActivityIndicatorView;
+		};
+		D7625537A0444D8F20008700433C8334 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,35 +70,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ABEA968F50AC58034795206CA551B02 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		0B9F7B9DD9A9C25AEC836D361F5CC973 /* Pods-ArtistFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtistFinder-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C137A958931692601B58D8B6241E24A /* Pulsator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-prefix.pch"; sourceTree = "<group>"; };
-		459B3A8E777CF118FD80A16135847191 /* Pulsator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulsator.modulemap; sourceTree = "<group>"; };
-		4C290D39A872157253E50A38461CBD69 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		0FBEB3CB40B3B1653E3ED080DE5FF5CB /* KRProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		183B53B254EF8D223E03B59502489870 /* Pulsator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pulsator.swift; path = Pulsator/Pulsator.swift; sourceTree = "<group>"; };
+		189DFD7B7FA5598F8E182F111D87B6F0 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		1B92FFB8BA6B8295C2C29FF004062040 /* KRProgressHUDIconType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDIconType.swift; path = KRProgressHUD/Classes/KRProgressHUDIconType.swift; sourceTree = "<group>"; };
+		1BDF3D6145C958A57F03B4E189687D9D /* KRActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		1C33CB84138510317C9CFF8E19C47C23 /* libKRProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKRProgressHUD.a; path = libKRProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B006C8CA886B86FE2680D91813A4A84 /* Pulsator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-umbrella.h"; sourceTree = "<group>"; };
+		2EDB3F110B26C84B64BB122B3C248AF0 /* KRActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		4535B0E07BDFA24818B4EA91300A7A96 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRActivityIndicatorView/Classes/Extensions.swift; sourceTree = "<group>"; };
+		4631A0E6D90EC124D8B1DF4676AA5C0F /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		4DD335B7DC95261A3A1C3E1B86202939 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ArtistFinder.a"; path = "libPods-ArtistFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5347690E3A757F6A8AC01222A6B8A1A5 /* Pods-ArtistFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArtistFinder.modulemap"; sourceTree = "<group>"; };
-		679497C41064A010424C9411003F67CA /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
-		83ACE6043C2502D297CBD541CE625F4F /* Pulsator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-umbrella.h"; sourceTree = "<group>"; };
+		57535B231C8C1BDD5283409934E4719B /* KRActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		5F4EDCD51A3B1C983909163774F7FF28 /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorView.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorView.swift; sourceTree = "<group>"; };
+		6A50BF1A4CA0DB5224A62EC007074D51 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		712C2D9186FCFD756970143E0542311A /* Pulsator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-prefix.pch"; sourceTree = "<group>"; };
+		715E0D0FABB665E9B90131F6701F81E7 /* KRActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		743FE4AAC5A520823D17E5A04FE5CD81 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		7F56F64902F9A3A1CCB526600975C61A /* KRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUD.swift; path = KRProgressHUD/Classes/KRProgressHUD.swift; sourceTree = "<group>"; };
 		8707CA37A1EA9A04FE987A2CB0264695 /* Pods-ArtistFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtistFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		9258ECC23A4C8B0274C7A6DF69DDFE95 /* libKRActivityIndicatorView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKRActivityIndicatorView.a; path = libKRActivityIndicatorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		958E2CF1F397150D7E491E4C73AA3896 /* Pulsator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulsator.modulemap; sourceTree = "<group>"; };
+		97D43CD494EAEB1DC24914153749566F /* Pulsator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulsator.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A23069D28E3E36478320284521CF4135 /* Pulsator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulsator-dummy.m"; sourceTree = "<group>"; };
+		9EA7B671B431D860EF9EDDD769B92BA4 /* KRActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		9F399A97777581F5377E2BD3E1AD0683 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		A0A0FE701E5647384457FDD47E893469 /* Pulsator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulsator-dummy.m"; sourceTree = "<group>"; };
 		A803FC940286873F4A4490F426D47D0A /* Pods-ArtistFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtistFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AB1E935F034AB58C62F8E852D2C01C04 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
-		B137EE039DF8FBD03B98E1C8BA406468 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		B70DFDE4DD5C14E386AF5BFD11EB999C /* KRProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRProgressHUD.xcconfig; sourceTree = "<group>"; };
 		BF96EF44C67D51BB85B05AB5F8EC7BEF /* Pods-ArtistFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtistFinder-dummy.m"; sourceTree = "<group>"; };
 		C7A592866C1B096729D1ABB0AA6E1A81 /* Pods-ArtistFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtistFinder.release.xcconfig"; sourceTree = "<group>"; };
-		D3345187669EC240242F1CD8BADE6F20 /* Pulsator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulsator.xcconfig; sourceTree = "<group>"; };
+		C9DA53869833944524F791520E2E74E3 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		CC13172FBA966D7AF67E31BF137D74CE /* KRProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRProgressHUD.modulemap; sourceTree = "<group>"; };
 		D392C11EB32EACD5EC9C8D37B51482B6 /* libSkyFloatingLabelTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSkyFloatingLabelTextField.a; path = libSkyFloatingLabelTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA63437C936008FE8282F22A54AE6487 /* Pulsator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pulsator.swift; path = Pulsator/Pulsator.swift; sourceTree = "<group>"; };
-		E5283190D1049F450442DD87BE0823EC /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
-		E987FC706EADFED6ADE79B4ABA350D1C /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		E3140CB94BE2AD8E45BB3E3F13372DDC /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRProgressHUD/Classes/Extensions.swift; sourceTree = "<group>"; };
+		E677729E476733E3DFD8F871D46A1244 /* InnerKRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InnerKRProgressHUD.swift; path = KRProgressHUD/Classes/InnerKRProgressHUD.swift; sourceTree = "<group>"; };
+		EA0CEEE6CCDB4F6BD52AC5D8EF08A779 /* KRProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		EAFBBF3EAD58304FFA03DF9E712DA3B6 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		F1E5F30928147EDA632D9266285A8953 /* KRProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		F506F17AA244F2E37F556FD5FA00EF3B /* Pods-ArtistFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtistFinder-umbrella.h"; sourceTree = "<group>"; };
-		FBDA9ED75550A333F6BCD9032507BA32 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		FB073A9CCDF7730C2CDAAC62DD92069B /* KRProgressHUDViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDViewController.swift; path = KRProgressHUD/Classes/KRProgressHUDViewController.swift; sourceTree = "<group>"; };
 		FF0CD94CB8F5CD73FEE61C7562214EE5 /* libPulsator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPulsator.a; path = libPulsator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC929D2A33FE7CAE701BF05E3CD119A /* KRActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorViewStyle.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		95C25DB9BA5C14D58406F54F49F7C7DD /* Frameworks */ = {
+		19C660F35F46E520584C012E253852A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,7 +132,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C97A681F314AD889334700E7FE739979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E50133A7034C554C6A2A4FEA1A210B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF19DD9064C50E906E0F2D3560F8088D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,58 +156,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A30D101D1DF3B2AFF4B768BE53496E7 /* Support Files */ = {
+		0A178BD06DF5D5C28E62BC81E310A7F3 /* KRActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				459B3A8E777CF118FD80A16135847191 /* Pulsator.modulemap */,
-				D3345187669EC240242F1CD8BADE6F20 /* Pulsator.xcconfig */,
-				A23069D28E3E36478320284521CF4135 /* Pulsator-dummy.m */,
-				2C137A958931692601B58D8B6241E24A /* Pulsator-prefix.pch */,
-				83ACE6043C2502D297CBD541CE625F4F /* Pulsator-umbrella.h */,
+				4535B0E07BDFA24818B4EA91300A7A96 /* Extensions.swift */,
+				5F4EDCD51A3B1C983909163774F7FF28 /* KRActivityIndicatorView.swift */,
+				FFC929D2A33FE7CAE701BF05E3CD119A /* KRActivityIndicatorViewStyle.swift */,
+				6374F851862569FBAFED68FC8B430C33 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Pulsator";
+			name = KRActivityIndicatorView;
+			path = KRActivityIndicatorView;
 			sourceTree = "<group>";
 		};
-		2D0B5079ED15B38F45E329B26DA5AF75 /* Pods */ = {
+		27E82C9AB60E0FAB91279B367D1EBA54 /* SkyFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				59D6B91A8FB6D89D19E5CAF48F586F3B /* Pulsator */,
-				9A2E4C8035FA8FF8C937AC6E80CA08A7 /* SkyFloatingLabelTextField */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		59D6B91A8FB6D89D19E5CAF48F586F3B /* Pulsator */ = {
-			isa = PBXGroup;
-			children = (
-				DA63437C936008FE8282F22A54AE6487 /* Pulsator.swift */,
-				2A30D101D1DF3B2AFF4B768BE53496E7 /* Support Files */,
-			);
-			name = Pulsator;
-			path = Pulsator;
-			sourceTree = "<group>";
-		};
-		9A2E4C8035FA8FF8C937AC6E80CA08A7 /* SkyFloatingLabelTextField */ = {
-			isa = PBXGroup;
-			children = (
-				4C290D39A872157253E50A38461CBD69 /* SkyFloatingLabelTextField.swift */,
-				AB1E935F034AB58C62F8E852D2C01C04 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				679497C41064A010424C9411003F67CA /* UITextField+fixCaretPosition.swift */,
-				BD6432839EA2F6D8F149E2676C5646A6 /* Support Files */,
+				4631A0E6D90EC124D8B1DF4676AA5C0F /* SkyFloatingLabelTextField.swift */,
+				4DD335B7DC95261A3A1C3E1B86202939 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				6A50BF1A4CA0DB5224A62EC007074D51 /* UITextField+fixCaretPosition.swift */,
+				BA0D302BDFCCAA93D3255509645FB19F /* Support Files */,
 			);
 			name = SkyFloatingLabelTextField;
 			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
-		BD6432839EA2F6D8F149E2676C5646A6 /* Support Files */ = {
+		2BD823547BA1C5CE126D515DF531D9BA /* KRProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				0ABEA968F50AC58034795206CA551B02 /* SkyFloatingLabelTextField.modulemap */,
-				E5283190D1049F450442DD87BE0823EC /* SkyFloatingLabelTextField.xcconfig */,
-				B137EE039DF8FBD03B98E1C8BA406468 /* SkyFloatingLabelTextField-dummy.m */,
-				FBDA9ED75550A333F6BCD9032507BA32 /* SkyFloatingLabelTextField-prefix.pch */,
-				E987FC706EADFED6ADE79B4ABA350D1C /* SkyFloatingLabelTextField-umbrella.h */,
+				E3140CB94BE2AD8E45BB3E3F13372DDC /* Extensions.swift */,
+				E677729E476733E3DFD8F871D46A1244 /* InnerKRProgressHUD.swift */,
+				7F56F64902F9A3A1CCB526600975C61A /* KRProgressHUD.swift */,
+				1B92FFB8BA6B8295C2C29FF004062040 /* KRProgressHUDIconType.swift */,
+				FB073A9CCDF7730C2CDAAC62DD92069B /* KRProgressHUDViewController.swift */,
+				618D2FD15831966276D11181B0CD49AD /* Support Files */,
+			);
+			name = KRProgressHUD;
+			path = KRProgressHUD;
+			sourceTree = "<group>";
+		};
+		2ED13FA5CDF1A9A802B26625C60555C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9258ECC23A4C8B0274C7A6DF69DDFE95 /* libKRActivityIndicatorView.a */,
+				1C33CB84138510317C9CFF8E19C47C23 /* libKRProgressHUD.a */,
+				5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */,
+				FF0CD94CB8F5CD73FEE61C7562214EE5 /* libPulsator.a */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* libSkyFloatingLabelTextField.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3241A3834140704E7B750573A81E7B10 /* Pulsator */ = {
+			isa = PBXGroup;
+			children = (
+				183B53B254EF8D223E03B59502489870 /* Pulsator.swift */,
+				69952B3DB08F19806D1F21318785E348 /* Support Files */,
+			);
+			name = Pulsator;
+			path = Pulsator;
+			sourceTree = "<group>";
+		};
+		618D2FD15831966276D11181B0CD49AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC13172FBA966D7AF67E31BF137D74CE /* KRProgressHUD.modulemap */,
+				B70DFDE4DD5C14E386AF5BFD11EB999C /* KRProgressHUD.xcconfig */,
+				F1E5F30928147EDA632D9266285A8953 /* KRProgressHUD-dummy.m */,
+				0FBEB3CB40B3B1653E3ED080DE5FF5CB /* KRProgressHUD-prefix.pch */,
+				EA0CEEE6CCDB4F6BD52AC5D8EF08A779 /* KRProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRProgressHUD";
+			sourceTree = "<group>";
+		};
+		6374F851862569FBAFED68FC8B430C33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BDF3D6145C958A57F03B4E189687D9D /* KRActivityIndicatorView.modulemap */,
+				57535B231C8C1BDD5283409934E4719B /* KRActivityIndicatorView.xcconfig */,
+				9EA7B671B431D860EF9EDDD769B92BA4 /* KRActivityIndicatorView-dummy.m */,
+				715E0D0FABB665E9B90131F6701F81E7 /* KRActivityIndicatorView-prefix.pch */,
+				2EDB3F110B26C84B64BB122B3C248AF0 /* KRActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		69952B3DB08F19806D1F21318785E348 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				958E2CF1F397150D7E491E4C73AA3896 /* Pulsator.modulemap */,
+				97D43CD494EAEB1DC24914153749566F /* Pulsator.xcconfig */,
+				A0A0FE701E5647384457FDD47E893469 /* Pulsator-dummy.m */,
+				712C2D9186FCFD756970143E0542311A /* Pulsator-prefix.pch */,
+				2B006C8CA886B86FE2680D91813A4A84 /* Pulsator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pulsator";
+			sourceTree = "<group>";
+		};
+		BA0D302BDFCCAA93D3255509645FB19F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA53869833944524F791520E2E74E3 /* SkyFloatingLabelTextField.modulemap */,
+				9F399A97777581F5377E2BD3E1AD0683 /* SkyFloatingLabelTextField.xcconfig */,
+				EAFBBF3EAD58304FFA03DF9E712DA3B6 /* SkyFloatingLabelTextField-dummy.m */,
+				189DFD7B7FA5598F8E182F111D87B6F0 /* SkyFloatingLabelTextField-prefix.pch */,
+				743FE4AAC5A520823D17E5A04FE5CD81 /* SkyFloatingLabelTextField-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SkyFloatingLabelTextField";
@@ -159,20 +281,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				2D0B5079ED15B38F45E329B26DA5AF75 /* Pods */,
-				D3987660BE814FA01BF018F0D975BE0F /* Products */,
+				F98F94A3D17525C4C1692D8B994804EF /* Pods */,
+				2ED13FA5CDF1A9A802B26625C60555C3 /* Products */,
 				C2A6D65BDAFA1BC48B86A9935B777E55 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D3987660BE814FA01BF018F0D975BE0F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */,
-				FF0CD94CB8F5CD73FEE61C7562214EE5 /* libPulsator.a */,
-				D392C11EB32EACD5EC9C8D37B51482B6 /* libSkyFloatingLabelTextField.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D76933B63076142A03E4DAC10BB689A7 /* Pods-ArtistFinder */ = {
@@ -197,6 +309,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F98F94A3D17525C4C1692D8B994804EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A178BD06DF5D5C28E62BC81E310A7F3 /* KRActivityIndicatorView */,
+				2BD823547BA1C5CE126D515DF531D9BA /* KRProgressHUD */,
+				3241A3834140704E7B750573A81E7B10 /* Pulsator */,
+				27E82C9AB60E0FAB91279B367D1EBA54 /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -208,11 +331,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BCD09BA7B515E384E745ED671F91FBB /* Headers */ = {
+		1D48BD1D82DA98DD025DE1FA995D212E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF2E20BDCEAA784634008384583926B /* Pods-ArtistFinder-umbrella.h in Headers */,
+				C933626F0317F97CE761F9584F7E5E75 /* KRActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6FF3F92A6FDC6DE5556112E0E34E6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D5EAD0EB012E7401F1CBAA24BC31A0 /* Pods-ArtistFinder-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,26 +355,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F107E7C69E0F49C069C50694546F7A5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389DF3A831BD2858C9D5B956BC12694 /* KRProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A7450BEB5975700C91D05F49F247D173 /* Pods-ArtistFinder */ = {
+		4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AA4CBE8BD3D296E5B0496C9FD262C31 /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */;
+			buildConfigurationList = 06A6DC160E44C5DBAAAFDC09CD092886 /* Build configuration list for PBXNativeTarget "KRActivityIndicatorView" */;
 			buildPhases = (
-				6BCD09BA7B515E384E745ED671F91FBB /* Headers */,
-				511D5426690923E548623C0F14FACB4C /* Sources */,
-				95C25DB9BA5C14D58406F54F49F7C7DD /* Frameworks */,
+				1D48BD1D82DA98DD025DE1FA995D212E /* Headers */,
+				AB8F7DB85423B2E371ED1242BC8CA29C /* Sources */,
+				EF19DD9064C50E906E0F2D3560F8088D /* Frameworks */,
+				1F2CB13B3B167172AD01556116610A94 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5ADD14D63D11431E9F37321004BFDBF8 /* PBXTargetDependency */,
-				5A58F22FF1160C2C88C0A483AC931CCD /* PBXTargetDependency */,
+			);
+			name = KRActivityIndicatorView;
+			productName = KRActivityIndicatorView;
+			productReference = 9258ECC23A4C8B0274C7A6DF69DDFE95 /* libKRActivityIndicatorView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A7450BEB5975700C91D05F49F247D173 /* Pods-ArtistFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DABD6ACB4CCBAB35B863969952F9EA9 /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */;
+			buildPhases = (
+				3D6FF3F92A6FDC6DE5556112E0E34E6A /* Headers */,
+				BE819A9DD9ADE928A7B8D4AD913B1C33 /* Sources */,
+				C97A681F314AD889334700E7FE739979 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F620EDC25EA1A0FAC5B4E828D9F95BD3 /* PBXTargetDependency */,
+				FDBF229832C2D0A2C2E204FF79E7EC33 /* PBXTargetDependency */,
+				6F9ACB991CC361EA9BDF8664C815844E /* PBXTargetDependency */,
+				F75A72905F55E3BD0B25D5BE685745A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ArtistFinder";
 			productName = "Pods-ArtistFinder";
 			productReference = 5109F0AF3D0CB85A894848F5136C7F30 /* libPods-ArtistFinder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569A5EB96591014F9436636868FA8563 /* Build configuration list for PBXNativeTarget "KRProgressHUD" */;
+			buildPhases = (
+				F107E7C69E0F49C069C50694546F7A5F /* Headers */,
+				684EE09EC21217DA943F51E8E33E1354 /* Sources */,
+				19C660F35F46E520584C012E253852A8 /* Frameworks */,
+				88CD20460AC4171BE7B16E945BA8FB5A /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D645ED9DEB85762578CBBEA2D1D514B /* PBXTargetDependency */,
+			);
+			name = KRProgressHUD;
+			productName = KRProgressHUD;
+			productReference = 1C33CB84138510317C9CFF8E19C47C23 /* libKRProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */ = {
@@ -299,10 +477,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D3987660BE814FA01BF018F0D975BE0F /* Products */;
+			productRefGroup = 2ED13FA5CDF1A9A802B26625C60555C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */,
+				BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */,
 				A7450BEB5975700C91D05F49F247D173 /* Pods-ArtistFinder */,
 				E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */,
 				DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */,
@@ -311,6 +491,54 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1F2CB13B3B167172AD01556116610A94 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/KRActivityIndicatorView/KRActivityIndicatorView.modulemap",
+				"${PODS_ROOT}/Headers/Public/KRActivityIndicatorView/KRActivityIndicatorView-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KRActivityIndicatorView/KRActivityIndicatorView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KRActivityIndicatorView/KRActivityIndicatorView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		88CD20460AC4171BE7B16E945BA8FB5A /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/KRProgressHUD/KRProgressHUD.modulemap",
+				"${PODS_ROOT}/Headers/Public/KRProgressHUD/KRProgressHUD-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/KRProgressHUD-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KRProgressHUD/KRProgressHUD.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KRProgressHUD/KRProgressHUD-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
 		8E62C96A1240D6DD7111C7DDCC12BA65 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,11 +599,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		511D5426690923E548623C0F14FACB4C /* Sources */ = {
+		684EE09EC21217DA943F51E8E33E1354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C89E3B78B5F7F2A27149F99B367FB12 /* Pods-ArtistFinder-dummy.m in Sources */,
+				24D234DADB4B8414313AD30C5ACD98F7 /* Extensions.swift in Sources */,
+				68718EAE53E10328B8151861297D8411 /* InnerKRProgressHUD.swift in Sources */,
+				4E9A8B51FE2AE2B567C70E7F946F4DBB /* KRProgressHUD-dummy.m in Sources */,
+				369D65F930C4BBC790A9B0FDF4A1A876 /* KRProgressHUD.swift in Sources */,
+				F178E5AE19517F8FB754014A6A5C56D2 /* KRProgressHUDIconType.swift in Sources */,
+				407B90BFDAE37B4230AF1E961B7D3973 /* KRProgressHUDViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8F7DB85423B2E371ED1242BC8CA29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0C5BACDE050292A9104D71F5C0FE00 /* Extensions.swift in Sources */,
+				DE2C87AA69B1CC2C23897B43DF69C9D0 /* KRActivityIndicatorView-dummy.m in Sources */,
+				2ACE41406E36758EED08A0C5834E4780 /* KRActivityIndicatorView.swift in Sources */,
+				B64C10CB28211BE255B1694770C8B67F /* KRActivityIndicatorViewStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE819A9DD9ADE928A7B8D4AD913B1C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940CF48909195539AA7CC081594881B3 /* Pods-ArtistFinder-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,21 +645,66 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5A58F22FF1160C2C88C0A483AC931CCD /* PBXTargetDependency */ = {
+		6D645ED9DEB85762578CBBEA2D1D514B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SkyFloatingLabelTextField;
-			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
-			targetProxy = 5E95D58442FF585E0329ADD22BD452B4 /* PBXContainerItemProxy */;
+			name = KRActivityIndicatorView;
+			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
+			targetProxy = AA2899C1FEC3DA0CE2136DBA15104B78 /* PBXContainerItemProxy */;
 		};
-		5ADD14D63D11431E9F37321004BFDBF8 /* PBXTargetDependency */ = {
+		6F9ACB991CC361EA9BDF8664C815844E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Pulsator;
 			target = E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */;
-			targetProxy = 30A4233619C49E477230E1DE0AEEE076 /* PBXContainerItemProxy */;
+			targetProxy = 17DAD80CE2FA508D07FE40BBCD4061DD /* PBXContainerItemProxy */;
+		};
+		F620EDC25EA1A0FAC5B4E828D9F95BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRActivityIndicatorView;
+			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
+			targetProxy = 1B7A5CCAE9FC5BCD607A2BB5E77E0668 /* PBXContainerItemProxy */;
+		};
+		F75A72905F55E3BD0B25D5BE685745A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = D7625537A0444D8F20008700433C8334 /* PBXContainerItemProxy */;
+		};
+		FDBF229832C2D0A2C2E204FF79E7EC33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRProgressHUD;
+			target = BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */;
+			targetProxy = 4DC21AE5EC52AE96783A31EB0FE06E42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0FA468D00AE7DE0F814B90A58716C65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70DFDE4DD5C14E386AF5BFD11EB999C /* KRProgressHUD.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KRProgressHUD/KRProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/KRProgressHUD/KRProgressHUD.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KRProgressHUD;
+				PRODUCT_NAME = KRProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,7 +767,7 @@
 		};
 		3460A2BCF4551056A64003E6C516007F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5283190D1049F450442DD87BE0823EC /* SkyFloatingLabelTextField.xcconfig */;
+			baseConfigurationReference = 9F399A97777581F5377E2BD3E1AD0683 /* SkyFloatingLabelTextField.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -496,7 +793,7 @@
 		};
 		5A14FE20B6A92A31A547630866E16016 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3345187669EC240242F1CD8BADE6F20 /* Pulsator.xcconfig */;
+			baseConfigurationReference = 97D43CD494EAEB1DC24914153749566F /* Pulsator.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -521,7 +818,59 @@
 			};
 			name = Release;
 		};
-		93E8524DAB8E94926B315E9F1DCEA467 /* Debug */ = {
+		71247D3DFA911F1D3CE4A3B17E8782F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57535B231C8C1BDD5283409934E4719B /* KRActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/KRActivityIndicatorView/KRActivityIndicatorView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KRActivityIndicatorView;
+				PRODUCT_NAME = KRActivityIndicatorView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E7FC474B0479337CEE19BC07A4827F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70DFDE4DD5C14E386AF5BFD11EB999C /* KRProgressHUD.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KRProgressHUD/KRProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/KRProgressHUD/KRProgressHUD.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KRProgressHUD;
+				PRODUCT_NAME = KRProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7CDE284FDCB08CE28848A84EE2FFC4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8707CA37A1EA9A04FE987A2CB0264695 /* Pods-ArtistFinder.debug.xcconfig */;
 			buildSettings = {
@@ -545,9 +894,34 @@
 			};
 			name = Debug;
 		};
+		AD8F96CC290E8F0D77AA60FFAC8D0FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A592866C1B096729D1ABB0AA6E1A81 /* Pods-ArtistFinder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B8AD61AD8B60C62684CB68070085CF46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3345187669EC240242F1CD8BADE6F20 /* Pulsator.xcconfig */;
+			baseConfigurationReference = 97D43CD494EAEB1DC24914153749566F /* Pulsator.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -573,7 +947,7 @@
 		};
 		BED9EF142CC3C883BFB65F1C9304E219 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5283190D1049F450442DD87BE0823EC /* SkyFloatingLabelTextField.xcconfig */;
+			baseConfigurationReference = 9F399A97777581F5377E2BD3E1AD0683 /* SkyFloatingLabelTextField.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -593,6 +967,33 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A5DB5D944651F4CCD5FE32D17A2E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57535B231C8C1BDD5283409934E4719B /* KRActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/KRActivityIndicatorView/KRActivityIndicatorView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KRActivityIndicatorView;
+				PRODUCT_NAME = KRActivityIndicatorView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -662,39 +1063,14 @@
 			};
 			name = Debug;
 		};
-		EB09E75AC1C2A89EC34E530B6F2580E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7A592866C1B096729D1ABB0AA6E1A81 /* Pods-ArtistFinder.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AA4CBE8BD3D296E5B0496C9FD262C31 /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */ = {
+		06A6DC160E44C5DBAAAFDC09CD092886 /* Build configuration list for PBXNativeTarget "KRActivityIndicatorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93E8524DAB8E94926B315E9F1DCEA467 /* Debug */,
-				EB09E75AC1C2A89EC34E530B6F2580E0 /* Release */,
+				71247D3DFA911F1D3CE4A3B17E8782F5 /* Debug */,
+				C7A5DB5D944651F4CCD5FE32D17A2E59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -713,6 +1089,24 @@
 			buildConfigurations = (
 				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
 				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DABD6ACB4CCBAB35B863969952F9EA9 /* Build configuration list for PBXNativeTarget "Pods-ArtistFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDE284FDCB08CE28848A84EE2FFC4C /* Debug */,
+				AD8F96CC290E8F0D77AA60FFAC8D0FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569A5EB96591014F9436636868FA8563 /* Build configuration list for PBXNativeTarget "KRProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7FC474B0479337CEE19BC07A4827F4 /* Debug */,
+				0FA468D00AE7DE0F814B90A58716C65A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

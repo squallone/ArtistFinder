@@ -1,20 +1,28 @@
 PODS:
+  - KRActivityIndicatorView (3.0.2)
+  - KRProgressHUD (3.4.1):
+    - KRActivityIndicatorView (= 3.0.2)
   - Pulsator (0.6.0)
   - SkyFloatingLabelTextField (3.7.0)
 
 DEPENDENCIES:
+  - KRProgressHUD
   - Pulsator
   - SkyFloatingLabelTextField (~> 3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - KRActivityIndicatorView
+    - KRProgressHUD
     - Pulsator
     - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
+  KRActivityIndicatorView: a2022d5d3e366207d2690f6bcc550f83aa91241b
+  KRProgressHUD: 115363b48feb530ab1f36c4146ed22e779e0f5aa
   Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
 
-PODFILE CHECKSUM: 1634b0cae51fb34eb226067073d0817207af26d9
+PODFILE CHECKSUM: c48faaa2cb4405b61cb3b727358481c865d76c06
 
 COCOAPODS: 1.7.5

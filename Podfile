@@ -5,6 +5,7 @@ target 'ArtistFinder' do
 
   pod "Pulsator"
   pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod "KRProgressHUD"
 
 end
 

@@ -14,13 +14,13 @@ enum LoginRequest: RequestProtocol {
     var endpoint: String{
         switch self {
         case .login:
-            return "api/blob/27f22463-d377-11e9-9a9e-2500248313e9"
+            return "/api/blob/27f22463-d377-11e9-9a9e-2500248313e9"
         }
     }
     var httpMethod: HTTPMethod {
         switch self {
         case .login:
-            return .post
+            return .get
         }
     }
     var parameters: [String: Any] {

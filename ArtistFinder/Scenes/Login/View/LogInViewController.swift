@@ -76,17 +76,21 @@ class LogInViewController: UIViewController {
             .assign(to: \.isEnabled, on: loginButtonButton)
         
         _ = viewModel.$state
-            .receive(on: RunLoop.main)
+            .receive(on: DispatchQueue.main)
             .sink {  state in
                 switch state {
                 case .successLogin:
-                    break
+                    Loader.hide()
+                    self.showHome()
                 case .loading:
-                    break
+                    Loader.show()
                 case .finishedLoading:
-                    break
+                    Loader.hide()
                 case .error(let error):
+                    Loader.hide()
                     print(error)
+                case .idle:
+                    break
                 }
         }
     }
@@ -95,7 +99,11 @@ class LogInViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction public func onButtonPressed(_ sender: UIButton)  {
+        viewModel.login()
         animationTwo()
+    }
+    
+    private func showHome() {
         performSegue(withIdentifier: "Modal Home", sender: nil)
     }
 }

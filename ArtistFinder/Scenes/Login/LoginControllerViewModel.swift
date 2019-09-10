@@ -9,6 +9,7 @@
 import Combine
 
 enum LoginViewModelState {
+    case idle
     case successLogin
     case loading
     case finishedLoading
@@ -29,7 +30,7 @@ final class LoginViewControllerViewModel {
     
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
     // MARK: - Outputs
-    @Published private(set) var state: LoginViewModelState = .loading
+    @Published private(set) var state: LoginViewModelState = .idle
     
     lazy var isValidEmail: AnyPublisher<Bool, Never> =
         $email.removeDuplicates()
@@ -61,10 +62,8 @@ final class LoginViewControllerViewModel {
     }
     
     // MARK: - Actions
-    func login() -> CurrentValueSubject<Bool, Never> {
-        print(email)
-        print(password)
-        
+    func login() {
+        state = .loading
         _ = loginAPI
             .login(email, password)
             .sink(receiveCompletion: { [weak self] completion in
@@ -75,11 +74,8 @@ final class LoginViewControllerViewModel {
                     self?.state = .finishedLoading
                 }
                 
-            }, receiveValue: { [weak self] user in
-                self?.state = .successLogin
+                }, receiveValue: { [weak self] user in
+                    self?.state = .successLogin
             })
-        
-        return CurrentValueSubject(false)
     }
-    
 }

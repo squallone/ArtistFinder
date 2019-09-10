@@ -22,7 +22,6 @@
 		71DB5A514232D4B459DA85D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087FD25F7504D6A5F470FF5 /* AppDelegate.swift */; };
 		84CB9234879005E97807B451 /* PopularItem1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABAB330569CA55E1A06B7A /* PopularItem1CollectionViewCell.swift */; };
 		8DD8530A9CC06386FB02FE46 /* SupernovaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738F417DF72485C2B5FEAC15 /* SupernovaButton.swift */; };
-		9901525B2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901525A2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift */; };
 		9901525E2326165000DF54C8 /* InitialPublished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901525D2326165000DF54C8 /* InitialPublished.swift */; };
 		9901526123261B8A00DF54C8 /* TextField+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901526023261B8A00DF54C8 /* TextField+Combine.swift */; };
 		9901526423261EEB00DF54C8 /* ValidatePasswordUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901526323261EEB00DF54C8 /* ValidatePasswordUseCase.swift */; };
@@ -40,6 +39,7 @@
 		999DD756232740FB0015FA53 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD755232740FB0015FA53 /* RequestService.swift */; };
 		999DD758232741C10015FA53 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD757232741C10015FA53 /* Environment.swift */; };
 		999DD75B232742760015FA53 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD75A232742760015FA53 /* LoginRequest.swift */; };
+		999DD75D23274BC90015FA53 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD75C23274BC90015FA53 /* Loader.swift */; };
 		9A331BBFE870D4350C28ACDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3144204136E9A428AD40AF90 /* Main.storyboard */; };
 		A038E0A5154EC49320EE9B6B /* LatestItem1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FEC7EEA817F9B9BE06A66F /* LatestItem1TableViewCell.swift */; };
 		A54951F1050EBFCA351EA4F9 /* UILabel+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5500E180D84290C9A8D04C /* UILabel+Utility.swift */; };
@@ -71,7 +71,6 @@
 		85916B2A55844A1A6EC478D2 /* UIImage+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utility.swift"; sourceTree = "<group>"; };
 		886BC94A8DB5C2D0A8B87915 /* libPods-ArtistFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArtistFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5A722EB57EA02178E87DD9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		9901525A2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginControllerViewModel+Protocols.swift"; sourceTree = "<group>"; };
 		9901525D2326165000DF54C8 /* InitialPublished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPublished.swift; sourceTree = "<group>"; };
 		9901526023261B8A00DF54C8 /* TextField+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Combine.swift"; sourceTree = "<group>"; };
 		9901526323261EEB00DF54C8 /* ValidatePasswordUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatePasswordUseCase.swift; sourceTree = "<group>"; };
@@ -88,6 +87,7 @@
 		999DD755232740FB0015FA53 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
 		999DD757232741C10015FA53 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		999DD75A232742760015FA53 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		999DD75C23274BC90015FA53 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		B1EFAC39497E5B089B086767 /* UISearchBar+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Utility.swift"; sourceTree = "<group>"; };
 		B5FEC7EEA817F9B9BE06A66F /* LatestItem1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestItem1TableViewCell.swift; sourceTree = "<group>"; };
 		B8E2E66D12424CAF1F3C6CE4 /* Pods-ArtistFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtistFinder.debug.xcconfig"; path = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,10 +174,12 @@
 		6286105D1F80305963DDDE78 /* ArtistFinder */ = {
 			isa = PBXGroup;
 			children = (
+				999DD757232741C10015FA53 /* Environment.swift */,
+				999DD75C23274BC90015FA53 /* Loader.swift */,
 				9901525C2326163200DF54C8 /* Combine */,
 				9901525F23261B7C00DF54C8 /* Extensions */,
 				999DD74F2327327F0015FA53 /* API */,
-				9901526223261ED200DF54C8 /* UsseCases */,
+				9901526223261ED200DF54C8 /* UseCases */,
 				9962B00E2325CE8300B6C4B8 /* Scenes */,
 				BB84D85D3379E460F9553844 /* Classes */,
 				C4CB7E903DF9B629EBD82F9B /* Resources */,
@@ -238,14 +240,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		9901526223261ED200DF54C8 /* UsseCases */ = {
+		9901526223261ED200DF54C8 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
 				9901526523262DA100DF54C8 /* LoginUseCase.swift */,
 				990152672326966900DF54C8 /* ValidateEmailUseCase.swift */,
 				9901526323261EEB00DF54C8 /* ValidatePasswordUseCase.swift */,
 			);
-			path = UsseCases;
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		9962B00E2325CE8300B6C4B8 /* Scenes */ = {
@@ -270,9 +272,9 @@
 		9962B0102325CEAC00B6C4B8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				9962B0172325CF0800B6C4B8 /* Model */,
+				999DD7512327337B0015FA53 /* User.swift */,
+				9962B0142325CEF800B6C4B8 /* LoginControllerViewModel.swift */,
 				9962B0132325CEDC00B6C4B8 /* View */,
-				9962B0162325CEFF00B6C4B8 /* ViewModel */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -285,23 +287,6 @@
 				9962B00A2325C2E600B6C4B8 /* LoginViewController+Animations.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		9962B0162325CEFF00B6C4B8 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				9901525A2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift */,
-				9962B0142325CEF800B6C4B8 /* LoginControllerViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		9962B0172325CF0800B6C4B8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				999DD7512327337B0015FA53 /* User.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		999DD74F2327327F0015FA53 /* API */ = {
@@ -319,7 +304,6 @@
 			children = (
 				999DD75323273D3D0015FA53 /* NetworkingCore.swift */,
 				999DD755232740FB0015FA53 /* RequestService.swift */,
-				999DD757232741C10015FA53 /* Environment.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -510,7 +494,6 @@
 				D5CF27EA39A8B8AFF4272893 /* UIImage+Utility.swift in Sources */,
 				1D50297075D2CC87D794A330 /* LatestItem1TwoTableViewCell.swift in Sources */,
 				9901525E2326165000DF54C8 /* InitialPublished.swift in Sources */,
-				9901525B2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift in Sources */,
 				05FECBA1B104571EAE48612F /* MusicPlayerViewController.swift in Sources */,
 				D779DC17C84C6D822A2216D8 /* LogInViewController.swift in Sources */,
 				E5FD59F8E158424F504241CD /* WelcomeViewController.swift in Sources */,
@@ -520,6 +503,7 @@
 				9962B0072325B35E00B6C4B8 /* WelcomeViewController+Animations.swift in Sources */,
 				9901526623262DA100DF54C8 /* LoginUseCase.swift in Sources */,
 				265A66CEB58509EF94DEF85B /* UITabBarController+Utility.swift in Sources */,
+				999DD75D23274BC90015FA53 /* Loader.swift in Sources */,
 				990152682326966900DF54C8 /* ValidateEmailUseCase.swift in Sources */,
 				F0F10635CF5CD4AFD673BC7B /* PopularItem3CollectionViewCell.swift in Sources */,
 				A54951F1050EBFCA351EA4F9 /* UILabel+Utility.swift in Sources */,
