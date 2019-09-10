@@ -22,12 +22,24 @@
 		71DB5A514232D4B459DA85D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087FD25F7504D6A5F470FF5 /* AppDelegate.swift */; };
 		84CB9234879005E97807B451 /* PopularItem1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABAB330569CA55E1A06B7A /* PopularItem1CollectionViewCell.swift */; };
 		8DD8530A9CC06386FB02FE46 /* SupernovaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738F417DF72485C2B5FEAC15 /* SupernovaButton.swift */; };
+		9901525B2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901525A2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift */; };
+		9901525E2326165000DF54C8 /* InitialPublished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901525D2326165000DF54C8 /* InitialPublished.swift */; };
+		9901526123261B8A00DF54C8 /* TextField+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901526023261B8A00DF54C8 /* TextField+Combine.swift */; };
+		9901526423261EEB00DF54C8 /* ValidatePasswordUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901526323261EEB00DF54C8 /* ValidatePasswordUseCase.swift */; };
+		9901526623262DA100DF54C8 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901526523262DA100DF54C8 /* LoginUseCase.swift */; };
+		990152682326966900DF54C8 /* ValidateEmailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990152672326966900DF54C8 /* ValidateEmailUseCase.swift */; };
 		9962B0072325B35E00B6C4B8 /* WelcomeViewController+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B0062325B35E00B6C4B8 /* WelcomeViewController+Animations.swift */; };
 		9962B0092325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B0082325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift */; };
 		9962B00B2325C2E600B6C4B8 /* LoginViewController+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B00A2325C2E600B6C4B8 /* LoginViewController+Animations.swift */; };
 		9962B00D2325CE2A00B6C4B8 /* LoginViewController+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B00C2325CE2A00B6C4B8 /* LoginViewController+Setup.swift */; };
 		9962B0152325CEF800B6C4B8 /* LoginControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962B0142325CEF800B6C4B8 /* LoginControllerViewModel.swift */; };
 		996747427206765670974A7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7989D2F63A3CDA093CE30CBC /* Images.xcassets */; };
+		999DD74E232732780015FA53 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD74D232732780015FA53 /* LoginService.swift */; };
+		999DD7522327337B0015FA53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD7512327337B0015FA53 /* User.swift */; };
+		999DD75423273D3D0015FA53 /* NetworkingCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD75323273D3D0015FA53 /* NetworkingCore.swift */; };
+		999DD756232740FB0015FA53 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD755232740FB0015FA53 /* RequestService.swift */; };
+		999DD758232741C10015FA53 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD757232741C10015FA53 /* Environment.swift */; };
+		999DD75B232742760015FA53 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DD75A232742760015FA53 /* LoginRequest.swift */; };
 		9A331BBFE870D4350C28ACDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3144204136E9A428AD40AF90 /* Main.storyboard */; };
 		A038E0A5154EC49320EE9B6B /* LatestItem1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FEC7EEA817F9B9BE06A66F /* LatestItem1TableViewCell.swift */; };
 		A54951F1050EBFCA351EA4F9 /* UILabel+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5500E180D84290C9A8D04C /* UILabel+Utility.swift */; };
@@ -59,11 +71,23 @@
 		85916B2A55844A1A6EC478D2 /* UIImage+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utility.swift"; sourceTree = "<group>"; };
 		886BC94A8DB5C2D0A8B87915 /* libPods-ArtistFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArtistFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5A722EB57EA02178E87DD9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9901525A2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginControllerViewModel+Protocols.swift"; sourceTree = "<group>"; };
+		9901525D2326165000DF54C8 /* InitialPublished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPublished.swift; sourceTree = "<group>"; };
+		9901526023261B8A00DF54C8 /* TextField+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Combine.swift"; sourceTree = "<group>"; };
+		9901526323261EEB00DF54C8 /* ValidatePasswordUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatePasswordUseCase.swift; sourceTree = "<group>"; };
+		9901526523262DA100DF54C8 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		990152672326966900DF54C8 /* ValidateEmailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateEmailUseCase.swift; sourceTree = "<group>"; };
 		9962B0062325B35E00B6C4B8 /* WelcomeViewController+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeViewController+Animations.swift"; sourceTree = "<group>"; };
 		9962B0082325B7CF00B6C4B8 /* WelcomeViewController+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeViewController+Setup.swift"; sourceTree = "<group>"; };
 		9962B00A2325C2E600B6C4B8 /* LoginViewController+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+Animations.swift"; sourceTree = "<group>"; };
 		9962B00C2325CE2A00B6C4B8 /* LoginViewController+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+Setup.swift"; sourceTree = "<group>"; };
 		9962B0142325CEF800B6C4B8 /* LoginControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerViewModel.swift; sourceTree = "<group>"; };
+		999DD74D232732780015FA53 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		999DD7512327337B0015FA53 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		999DD75323273D3D0015FA53 /* NetworkingCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingCore.swift; sourceTree = "<group>"; };
+		999DD755232740FB0015FA53 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		999DD757232741C10015FA53 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		999DD75A232742760015FA53 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		B1EFAC39497E5B089B086767 /* UISearchBar+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Utility.swift"; sourceTree = "<group>"; };
 		B5FEC7EEA817F9B9BE06A66F /* LatestItem1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestItem1TableViewCell.swift; sourceTree = "<group>"; };
 		B8E2E66D12424CAF1F3C6CE4 /* Pods-ArtistFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtistFinder.debug.xcconfig"; path = "Target Support Files/Pods-ArtistFinder/Pods-ArtistFinder.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +174,10 @@
 		6286105D1F80305963DDDE78 /* ArtistFinder */ = {
 			isa = PBXGroup;
 			children = (
+				9901525C2326163200DF54C8 /* Combine */,
+				9901525F23261B7C00DF54C8 /* Extensions */,
+				999DD74F2327327F0015FA53 /* API */,
+				9901526223261ED200DF54C8 /* UsseCases */,
 				9962B00E2325CE8300B6C4B8 /* Scenes */,
 				BB84D85D3379E460F9553844 /* Classes */,
 				C4CB7E903DF9B629EBD82F9B /* Resources */,
@@ -194,6 +222,32 @@
 			path = Interface;
 			sourceTree = "<group>";
 		};
+		9901525C2326163200DF54C8 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				9901525D2326165000DF54C8 /* InitialPublished.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		9901525F23261B7C00DF54C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9901526023261B8A00DF54C8 /* TextField+Combine.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9901526223261ED200DF54C8 /* UsseCases */ = {
+			isa = PBXGroup;
+			children = (
+				9901526523262DA100DF54C8 /* LoginUseCase.swift */,
+				990152672326966900DF54C8 /* ValidateEmailUseCase.swift */,
+				9901526323261EEB00DF54C8 /* ValidatePasswordUseCase.swift */,
+			);
+			path = UsseCases;
+			sourceTree = "<group>";
+		};
 		9962B00E2325CE8300B6C4B8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +290,7 @@
 		9962B0162325CEFF00B6C4B8 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9901525A2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift */,
 				9962B0142325CEF800B6C4B8 /* LoginControllerViewModel.swift */,
 			);
 			path = ViewModel;
@@ -244,8 +299,29 @@
 		9962B0172325CF0800B6C4B8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				999DD7512327337B0015FA53 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		999DD74F2327327F0015FA53 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				999DD74D232732780015FA53 /* LoginService.swift */,
+				999DD75A232742760015FA53 /* LoginRequest.swift */,
+				999DD759232741E80015FA53 /* Networking */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		999DD759232741E80015FA53 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				999DD75323273D3D0015FA53 /* NetworkingCore.swift */,
+				999DD755232740FB0015FA53 /* RequestService.swift */,
+				999DD757232741C10015FA53 /* Environment.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		AD0FAAB90180A1CABB6F4255 /* Frameworks */ = {
@@ -433,6 +509,8 @@
 				BF05634B986B5C979CB0B7C8 /* UISearchBar+Utility.swift in Sources */,
 				D5CF27EA39A8B8AFF4272893 /* UIImage+Utility.swift in Sources */,
 				1D50297075D2CC87D794A330 /* LatestItem1TwoTableViewCell.swift in Sources */,
+				9901525E2326165000DF54C8 /* InitialPublished.swift in Sources */,
+				9901525B2326149100DF54C8 /* LoginControllerViewModel+Protocols.swift in Sources */,
 				05FECBA1B104571EAE48612F /* MusicPlayerViewController.swift in Sources */,
 				D779DC17C84C6D822A2216D8 /* LogInViewController.swift in Sources */,
 				E5FD59F8E158424F504241CD /* WelcomeViewController.swift in Sources */,
@@ -440,11 +518,17 @@
 				D0E1CD4EFDF5CE3F5F6917A6 /* PopularItem1ThreeCollectionViewCell.swift in Sources */,
 				9962B0152325CEF800B6C4B8 /* LoginControllerViewModel.swift in Sources */,
 				9962B0072325B35E00B6C4B8 /* WelcomeViewController+Animations.swift in Sources */,
+				9901526623262DA100DF54C8 /* LoginUseCase.swift in Sources */,
 				265A66CEB58509EF94DEF85B /* UITabBarController+Utility.swift in Sources */,
+				990152682326966900DF54C8 /* ValidateEmailUseCase.swift in Sources */,
 				F0F10635CF5CD4AFD673BC7B /* PopularItem3CollectionViewCell.swift in Sources */,
 				A54951F1050EBFCA351EA4F9 /* UILabel+Utility.swift in Sources */,
 				0E39312354BB461B144B4380 /* NSMutableParagraphStyle+Utility.swift in Sources */,
+				999DD75423273D3D0015FA53 /* NetworkingCore.swift in Sources */,
+				999DD756232740FB0015FA53 /* RequestService.swift in Sources */,
+				9901526123261B8A00DF54C8 /* TextField+Combine.swift in Sources */,
 				84CB9234879005E97807B451 /* PopularItem1CollectionViewCell.swift in Sources */,
+				999DD75B232742760015FA53 /* LoginRequest.swift in Sources */,
 				9962B00D2325CE2A00B6C4B8 /* LoginViewController+Setup.swift in Sources */,
 				0A404278050D103D5434F203 /* PopularItem1TwoCollectionViewCell.swift in Sources */,
 				5F512DB9CAD344EE5F9578F2 /* LatestItem2TableViewCell.swift in Sources */,
@@ -455,7 +539,11 @@
 				EE9A35F8FCEAFBDEEFC667E9 /* UINavigationController+Utility.swift in Sources */,
 				9962B00B2325C2E600B6C4B8 /* LoginViewController+Animations.swift in Sources */,
 				8DD8530A9CC06386FB02FE46 /* SupernovaButton.swift in Sources */,
+				999DD758232741C10015FA53 /* Environment.swift in Sources */,
+				999DD7522327337B0015FA53 /* User.swift in Sources */,
+				9901526423261EEB00DF54C8 /* ValidatePasswordUseCase.swift in Sources */,
 				2BE08F6B1ECBD5CCFC4C6DAA /* SupernovaLabel.swift in Sources */,
+				999DD74E232732780015FA53 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +639,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "$(SRCROOT)/ArtistFinder/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.supernova.project.Production;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -566,6 +655,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "$(SRCROOT)/ArtistFinder/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.supernova.project.Production;
 				PRODUCT_NAME = "$(TARGET_NAME)";

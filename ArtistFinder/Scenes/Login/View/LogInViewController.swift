@@ -8,16 +8,14 @@
 
 // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 // MARK: - Import
-
 import UIKit
 import SkyFloatingLabelTextField
+import Combine
 // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 // MARK: - Implementation
-
 class LogInViewController: UIViewController {
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
-    // MARK: - Properties
-
+    // MARK: - Properties (View)
     @IBOutlet weak var backgroundView: UIView!
     @IBOutlet weak var donTHaveAnAccounLabel: UILabel!
     @IBOutlet weak var loginButtonButton: SupernovaButton!
@@ -28,54 +26,76 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var forgotYourPasswordLabel: UILabel!
     @IBOutlet weak var muzikaLogoImageView: UIImageView!
     var allGradientLayers: [CAGradientLayer] = []
-
+    // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+    // MARK: - Properties (Controller)
+    let viewModel =
+        LoginViewControllerViewModel(emailUseCase: ValidateEmailUseCase(),
+                                     passwordUseCase: ValidatePasswordUseCase(),
+                                     loginAPI: LoginService())
+    
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
     // MARK: - Lifecycle
-
     override public func viewDidLoad()  {
         super.viewDidLoad()
         setupComponents()
         setupUI()
+        setupBindings()
     }
-
+    
     override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         // Navigation bar, if any
         navigationController?.setNavigationBarHidden(true, animated: true)
         // Animations
         animationOne()
         animationTwo()
     }
-
-
+    
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
     // MARK: - Layout
-
     override public func viewDidLayoutSubviews()  {
         super.viewDidLayoutSubviews()
         for layer in allGradientLayers {
             layer.frame = layer.superlayer?.frame ?? CGRect.zero
         }
     }
-
-
+    
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
-    // MARK: - Status Bar
-
-    override public var prefersStatusBarHidden: Bool  {
-        return true
+    // MARK: - Binding
+    private func setupBindings() {
+        _ = emailAdressLabel.textPublisher
+            .receive(on: DispatchQueue.main)
+            .assign(to: \.email, on: viewModel)
+        
+        _ = passwordLabel.textPublisher
+            .receive(on: DispatchQueue.main)
+            .assign(to: \.password, on: viewModel)
+        
+        _ = viewModel.enabledButton
+            .receive(on: DispatchQueue.main)
+            .assign(to: \.isEnabled, on: loginButtonButton)
+        
+        _ = viewModel.$state
+            .receive(on: RunLoop.main)
+            .sink {  state in
+                switch state {
+                case .successLogin:
+                    break
+                case .loading:
+                    break
+                case .finishedLoading:
+                    break
+                case .error(let error):
+                    print(error)
+                }
+        }
     }
-
-    override public var preferredStatusBarStyle: UIStatusBarStyle  {
-        return .default
-    }
-
+    
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
     // MARK: - Actions
-
+    
     @IBAction public func onButtonPressed(_ sender: UIButton)  {
-        performSegue(withIdentifier: "Modal Home", sender: nil)
         animationTwo()
+        performSegue(withIdentifier: "Modal Home", sender: nil)
     }
 }
